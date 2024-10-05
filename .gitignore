@@ -1,5 +1,5 @@
 # environment file containing API key(s)
-# .env
+.env
 
 # pickle files (models) generated at the first execution of application
 *.pkl
