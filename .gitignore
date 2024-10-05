@@ -1,0 +1,14 @@
+# environment file containing API key(s)
+# .env
+
+# pickle files (models) generated at the first execution of application
+*.pkl
+
+# directory(ies) containing models
+models/
+
+# virtual environment directory
+venv/
+
+# system generated directtory
+__pycache__/
