@@ -3,6 +3,7 @@ pandas
 scikit-learn
 apscheduler
 requests
+python-dotenv
 fastapi
 uvicorn
 langchain-google-genai
