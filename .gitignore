@@ -1,3 +1,6 @@
+# python notebook files to test new code before putting in application
+*.ipynb
+
 # environment file containing API key(s)
 .env
 

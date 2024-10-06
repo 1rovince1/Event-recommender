@@ -13,6 +13,7 @@ from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 # from nltk.stem import WordNetLemmatizer
 # from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer
+from currency_converter import CurrencyConverter
 
 import links
 
@@ -118,9 +119,13 @@ def update_event_df():
     event_df['endDateTime'] = pd.to_datetime(event_df['endDateTime'])
     event_df['Duration'] = (event_df['endDateTime'] - event_df['startDateTime']).dt.total_seconds() / 3600  # Duration column hold the length of the event
 
-    # current_utc_datetime = pd.to_datetime('now', utc=True)
-    current_utc_datetime = pd.to_datetime('now')
+    current_utc_datetime = pd.to_datetime('now', utc=True)
+    # current_utc_datetime = pd.to_datetime('now')
     event_df['Upcoming'] = (event_df['startDateTime'] - current_utc_datetime)  # Upcoming column hold the time duration which is left before the startDateTime of event arrives
+
+    # converting currencies to a standard value for comparison (INR)
+    currconv = CurrencyConverter()
+    event_df['priceINR'] = event_df.apply(lambda item: currconv.convert(item['price'], item['currency'], 'INR'), axis=1)
     
     # creating and saving a list of the events that can be recommended (only the events in the future are saved in this list)
     recommendable_events_list = event_df['id'][event_df['startDateTime'] > current_utc_datetime].tolist()
@@ -186,7 +191,7 @@ def title_desc_similarity():
 # function to get price similarity matrix
 def price_similarity():
 
-    price_arr = np.array(retrieved_event_df['price'])
+    price_arr = np.array(retrieved_event_df['priceINR'])
     num_prices = len(price_arr)
     price_similarity_matrix = np.zeros((num_prices, num_prices))
 

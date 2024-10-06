@@ -10,11 +10,11 @@
             "organizerId": 102,
             "performerId": 1,
             "venueId": 203,
-            "startDateTime": "2024-01-10T09:00:00",
-            "endDateTime": "2024-01-10T17:00:00",
+            "startDateTime": "2024-01-10T09:00:00Z",
+            "endDateTime": "2024-01-10T17:00:00Z",
             "status": "Published",
-            "createdOn": "2023-11-01T11:00:00",
-            "modifiedOn": "2023-11-01T11:00:00",
+            "createdOn": "2023-11-01T11:00:00Z",
+            "modifiedOn": "2023-11-01T11:00:00Z",
             "offers": [
                 {
                     "offerId": 21,
@@ -50,7 +50,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 102,
@@ -60,11 +61,11 @@
             "organizerId": 103,
             "performerId": 1,
             "venueId": 204,
-            "startDateTime": "2024-02-14T18:00:00",
-            "endDateTime": "2024-02-14T23:00:00",
+            "startDateTime": "2024-02-14T18:00:00Z",
+            "endDateTime": "2024-02-14T23:00:00Z",
             "status": "Published",
-            "createdOn": "2023-12-01T14:00:00",
-            "modifiedOn": "2023-12-01T14:00:00",
+            "createdOn": "2023-12-01T14:00:00Z",
+            "modifiedOn": "2023-12-01T14:00:00Z",
             "offers": [
                 {
                     "offerId": 22,
@@ -103,7 +104,8 @@
             "performer": {
                 "name": "The Jazz Ensemble",
                 "bio": "A renowned jazz band performing live music."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 103,
@@ -113,11 +115,11 @@
             "organizerId": 104,
             "performerId": 1,
             "venueId": 205,
-            "startDateTime": "2024-03-05T10:00:00",
-            "endDateTime": "2024-03-05T18:00:00",
+            "startDateTime": "2024-03-05T10:00:00Z",
+            "endDateTime": "2024-03-05T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-01-10T09:00:00",
-            "modifiedOn": "2024-01-10T09:00:00",
+            "createdOn": "2024-01-10T09:00:00Z",
+            "modifiedOn": "2024-01-10T09:00:00Z",
             "offers": [
                 {
                     "offerId": 23,
@@ -153,7 +155,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 104,
@@ -163,11 +166,11 @@
             "organizerId": 105,
             "performerId": 1,
             "venueId": 206,
-            "startDateTime": "2024-06-20T16:00:00",
-            "endDateTime": "2024-06-20T22:00:00",
+            "startDateTime": "2024-06-20T16:00:00Z",
+            "endDateTime": "2024-06-20T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-03-15T10:00:00",
-            "modifiedOn": "2024-03-15T10:00:00",
+            "createdOn": "2024-03-15T10:00:00Z",
+            "modifiedOn": "2024-03-15T10:00:00Z",
             "offers": [
                 {
                     "offerId": 24,
@@ -206,7 +209,8 @@
             "performer": {
                 "name": "Various Artists",
                 "bio": "A lineup of popular and local artists."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 105,
@@ -216,11 +220,11 @@
             "organizerId": 106,
             "performerId": 1,
             "venueId": 207,
-            "startDateTime": "2024-04-10T12:00:00",
-            "endDateTime": "2024-04-10T20:00:00",
+            "startDateTime": "2024-04-10T12:00:00Z",
+            "endDateTime": "2024-04-10T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-02-01T08:00:00",
-            "modifiedOn": "2024-02-01T08:00:00",
+            "createdOn": "2024-02-01T08:00:00Z",
+            "modifiedOn": "2024-02-01T08:00:00Z",
             "offers": [
                 {
                     "offerId": 25,
@@ -256,7 +260,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 106,
@@ -266,11 +271,11 @@
             "organizerId": 107,
             "performerId": 1,
             "venueId": 208,
-            "startDateTime": "2024-05-22T10:00:00",
-            "endDateTime": "2024-05-22T17:00:00",
+            "startDateTime": "2024-05-22T10:00:00Z",
+            "endDateTime": "2024-05-22T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-03-10T09:00:00",
-            "modifiedOn": "2024-03-10T09:00:00",
+            "createdOn": "2024-03-10T09:00:00Z",
+            "modifiedOn": "2024-03-10T09:00:00Z",
             "offers": [
                 {
                     "offerId": 26,
@@ -306,7 +311,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 107,
@@ -316,11 +322,11 @@
             "organizerId": 108,
             "performerId": 1,
             "venueId": 209,
-            "startDateTime": "2024-07-01T09:00:00",
-            "endDateTime": "2024-07-01T18:00:00",
+            "startDateTime": "2024-07-01T09:00:00Z",
+            "endDateTime": "2024-07-01T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-04-01T10:00:00",
-            "modifiedOn": "2024-04-01T10:00:00",
+            "createdOn": "2024-04-01T10:00:00Z",
+            "modifiedOn": "2024-04-01T10:00:00Z",
             "offers": [
                 {
                     "offerId": 27,
@@ -356,7 +362,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 108,
@@ -366,11 +373,11 @@
             "organizerId": 109,
             "performerId": 1,
             "venueId": 210,
-            "startDateTime": "2024-05-15T11:00:00",
-            "endDateTime": "2024-05-15T20:00:00",
+            "startDateTime": "2024-05-15T11:00:00Z",
+            "endDateTime": "2024-05-15T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-02-20T14:00:00",
-            "modifiedOn": "2024-02-20T14:00:00",
+            "createdOn": "2024-02-20T14:00:00Z",
+            "modifiedOn": "2024-02-20T14:00:00Z",
             "offers": [
                 {
                     "offerId": 28,
@@ -406,7 +413,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 109,
@@ -416,11 +424,11 @@
             "organizerId": 110,
             "performerId": 1,
             "venueId": 211,
-            "startDateTime": "2024-06-10T08:00:00",
-            "endDateTime": "2024-06-10T17:00:00",
+            "startDateTime": "2024-06-10T08:00:00Z",
+            "endDateTime": "2024-06-10T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-03-15T09:00:00",
-            "modifiedOn": "2024-03-15T09:00:00",
+            "createdOn": "2024-03-15T09:00:00Z",
+            "modifiedOn": "2024-03-15T09:00:00Z",
             "offers": [
                 {
                     "offerId": 29,
@@ -456,7 +464,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 110,
@@ -466,11 +475,11 @@
             "organizerId": 111,
             "performerId": 1,
             "venueId": 212,
-            "startDateTime": "2024-08-20T10:00:00",
-            "endDateTime": "2024-08-20T18:00:00",
+            "startDateTime": "2024-08-20T10:00:00Z",
+            "endDateTime": "2024-08-20T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-05-05T11:00:00",
-            "modifiedOn": "2024-05-05T11:00:00",
+            "createdOn": "2024-05-05T11:00:00Z",
+            "modifiedOn": "2024-05-05T11:00:00Z",
             "offers": [
                 {
                     "offerId": 30,
@@ -506,7 +515,8 @@
                 "stateId": 1,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 111,
@@ -516,11 +526,11 @@
             "organizerId": 112,
             "performerId": 1,
             "venueId": 213,
-            "startDateTime": "2024-02-05T20:00:00",
-            "endDateTime": "2024-02-05T23:00:00",
+            "startDateTime": "2024-02-05T20:00:00Z",
+            "endDateTime": "2024-02-05T23:00:00Z",
             "status": "Published",
-            "createdOn": "2023-11-01T16:00:00",
-            "modifiedOn": "2023-11-01T16:00:00",
+            "createdOn": "2023-11-01T16:00:00Z",
+            "modifiedOn": "2023-11-01T16:00:00Z",
             "offers": [
                 {
                     "offerId": 31,
@@ -559,7 +569,8 @@
             "performer": {
                 "name": "DJ Classic",
                 "bio": "A DJ specializing in retro and classic music."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 112,
@@ -569,11 +580,11 @@
             "organizerId": 113,
             "performerId": 1,
             "venueId": 214,
-            "startDateTime": "2024-03-22T19:00:00",
-            "endDateTime": "2024-03-22T23:00:00",
+            "startDateTime": "2024-03-22T19:00:00Z",
+            "endDateTime": "2024-03-22T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-01-10T10:00:00",
-            "modifiedOn": "2024-01-10T10:00:00",
+            "createdOn": "2024-01-10T10:00:00Z",
+            "modifiedOn": "2024-01-10T10:00:00Z",
             "offers": [
                 {
                     "offerId": 32,
@@ -612,7 +623,8 @@
             "performer": {
                 "name": "The Smooth Jazz Quartet",
                 "bio": "A renowned jazz ensemble known for their captivating performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 113,
@@ -622,11 +634,11 @@
             "organizerId": 114,
             "performerId": 1,
             "venueId": 215,
-            "startDateTime": "2024-04-10T10:00:00",
-            "endDateTime": "2024-04-10T17:00:00",
+            "startDateTime": "2024-04-10T10:00:00Z",
+            "endDateTime": "2024-04-10T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-02-20T12:00:00",
-            "modifiedOn": "2024-02-20T12:00:00",
+            "createdOn": "2024-02-20T12:00:00Z",
+            "modifiedOn": "2024-02-20T12:00:00Z",
             "offers": [
                 {
                     "offerId": 33,
@@ -662,7 +674,8 @@
                 "stateId": 2,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 114,
@@ -672,11 +685,11 @@
             "organizerId": 115,
             "performerId": 1,
             "venueId": 216,
-            "startDateTime": "2024-01-20T14:00:00",
-            "endDateTime": "2024-01-20T22:00:00",
+            "startDateTime": "2024-01-20T14:00:00Z",
+            "endDateTime": "2024-01-20T22:00:00Z",
             "status": "Published",
-            "createdOn": "2023-11-15T11:00:00",
-            "modifiedOn": "2023-11-15T11:00:00",
+            "createdOn": "2023-11-15T11:00:00Z",
+            "modifiedOn": "2023-11-15T11:00:00Z",
             "offers": [
                 {
                     "offerId": 34,
@@ -712,7 +725,8 @@
                 "stateId": 3,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 115,
@@ -722,11 +736,11 @@
             "organizerId": 116,
             "performerId": 1,
             "venueId": 217,
-            "startDateTime": "2024-03-01T11:00:00",
-            "endDateTime": "2024-03-01T19:00:00",
+            "startDateTime": "2024-03-01T11:00:00Z",
+            "endDateTime": "2024-03-01T19:00:00Z",
             "status": "Published",
-            "createdOn": "2024-01-05T09:00:00",
-            "modifiedOn": "2024-01-05T09:00:00",
+            "createdOn": "2024-01-05T09:00:00Z",
+            "modifiedOn": "2024-01-05T09:00:00Z",
             "offers": [
                 {
                     "offerId": 35,
@@ -762,7 +776,8 @@
                 "stateId": 3,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 116,
@@ -772,11 +787,11 @@
             "organizerId": 117,
             "performerId": 1,
             "venueId": 218,
-            "startDateTime": "2024-04-25T17:00:00",
-            "endDateTime": "2024-04-25T22:00:00",
+            "startDateTime": "2024-04-25T17:00:00Z",
+            "endDateTime": "2024-04-25T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-02-10T13:00:00",
-            "modifiedOn": "2024-02-10T13:00:00",
+            "createdOn": "2024-02-10T13:00:00Z",
+            "modifiedOn": "2024-02-10T13:00:00Z",
             "offers": [
                 {
                     "offerId": 36,
@@ -812,7 +827,8 @@
                 "stateId": 3,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 117,
@@ -822,11 +838,11 @@
             "organizerId": 118,
             "performerId": 1,
             "venueId": 219,
-            "startDateTime": "2024-05-10T09:00:00",
-            "endDateTime": "2024-05-10T17:00:00",
+            "startDateTime": "2024-05-10T09:00:00Z",
+            "endDateTime": "2024-05-10T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-03-01T08:00:00",
-            "modifiedOn": "2024-03-01T08:00:00",
+            "createdOn": "2024-03-01T08:00:00Z",
+            "modifiedOn": "2024-03-01T08:00:00Z",
             "offers": [
                 {
                     "offerId": 37,
@@ -862,7 +878,8 @@
                 "stateId": 4,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 118,
@@ -872,11 +889,11 @@
             "organizerId": 119,
             "performerId": 1,
             "venueId": 220,
-            "startDateTime": "2024-06-15T20:00:00",
-            "endDateTime": "2024-06-15T23:00:00",
+            "startDateTime": "2024-06-15T20:00:00Z",
+            "endDateTime": "2024-06-15T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-04-10T10:00:00",
-            "modifiedOn": "2024-04-10T10:00:00",
+            "createdOn": "2024-04-10T10:00:00Z",
+            "modifiedOn": "2024-04-10T10:00:00Z",
             "offers": [
                 {
                     "offerId": 38,
@@ -912,7 +929,8 @@
                 "stateId": 4,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 119,
@@ -922,11 +940,11 @@
             "organizerId": 120,
             "performerId": 1,
             "venueId": 221,
-            "startDateTime": "2024-07-25T10:00:00",
-            "endDateTime": "2024-07-25T18:00:00",
+            "startDateTime": "2024-07-25T10:00:00Z",
+            "endDateTime": "2024-07-25T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-05-20T12:00:00",
-            "modifiedOn": "2024-05-20T12:00:00",
+            "createdOn": "2024-05-20T12:00:00Z",
+            "modifiedOn": "2024-05-20T12:00:00Z",
             "offers": [
                 {
                     "offerId": 39,
@@ -962,7 +980,8 @@
                 "stateId": 4,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 120,
@@ -972,11 +991,11 @@
             "organizerId": 121,
             "performerId": 1,
             "venueId": 222,
-            "startDateTime": "2024-08-12T10:00:00",
-            "endDateTime": "2024-08-12T16:00:00",
+            "startDateTime": "2024-08-12T10:00:00Z",
+            "endDateTime": "2024-08-12T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-06-01T09:00:00",
-            "modifiedOn": "2024-06-01T09:00:00",
+            "createdOn": "2024-06-01T09:00:00Z",
+            "modifiedOn": "2024-06-01T09:00:00Z",
             "offers": [
                 {
                     "offerId": 40,
@@ -1012,7 +1031,8 @@
                 "stateId": 4,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 121,
@@ -1022,11 +1042,11 @@
             "organizerId": 122,
             "performerId": 1,
             "venueId": 223,
-            "startDateTime": "2024-09-20T09:00:00",
-            "endDateTime": "2024-09-20T17:00:00",
+            "startDateTime": "2024-09-20T09:00:00Z",
+            "endDateTime": "2024-09-20T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-07-01T08:00:00",
-            "modifiedOn": "2024-07-01T08:00:00",
+            "createdOn": "2024-07-01T08:00:00Z",
+            "modifiedOn": "2024-07-01T08:00:00Z",
             "offers": [
                 {
                     "offerId": 41,
@@ -1062,7 +1082,8 @@
                 "stateId": 4,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 122,
@@ -1072,11 +1093,11 @@
             "organizerId": 123,
             "performerId": 1,
             "venueId": 224,
-            "startDateTime": "2024-10-10T09:00:00",
-            "endDateTime": "2024-10-10T18:00:00",
+            "startDateTime": "2024-10-10T09:00:00Z",
+            "endDateTime": "2024-10-10T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-08-15T10:00:00",
-            "modifiedOn": "2024-08-15T10:00:00",
+            "createdOn": "2024-08-15T10:00:00Z",
+            "modifiedOn": "2024-08-15T10:00:00Z",
             "offers": [
                 {
                     "offerId": 42,
@@ -1112,7 +1133,8 @@
                 "stateId": 4,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 123,
@@ -1122,11 +1144,11 @@
             "organizerId": 101,
             "performerId": 1,
             "venueId": 301,
-            "startDateTime": "2024-09-30T19:00:00",
-            "endDateTime": "2024-09-30T22:00:00",
+            "startDateTime": "2024-09-30T19:00:00Z",
+            "endDateTime": "2024-09-30T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-15T19:00:00",
-            "modifiedOn": "2024-09-15T19:00:00",
+            "createdOn": "2024-09-15T19:00:00Z",
+            "modifiedOn": "2024-09-15T19:00:00Z",
             "offers": [
                 {
                     "offerId": 1,
@@ -1165,7 +1187,8 @@
             "performer": {
                 "name": "Diljit Doshanj",
                 "bio": "A celebrated artist known for energetic performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 124,
@@ -1175,11 +1198,11 @@
             "organizerId": 102,
             "performerId": 1,
             "venueId": 302,
-            "startDateTime": "2024-12-15T18:00:00",
-            "endDateTime": "2024-12-15T23:00:00",
+            "startDateTime": "2024-12-15T18:00:00Z",
+            "endDateTime": "2024-12-15T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-16T19:00:00",
-            "modifiedOn": "2024-09-16T19:00:00",
+            "createdOn": "2024-09-16T19:00:00Z",
+            "modifiedOn": "2024-09-16T19:00:00Z",
             "offers": [
                 {
                     "offerId": 2,
@@ -1218,7 +1241,8 @@
             "performer": {
                 "name": "The Snow Performers",
                 "bio": "A group of artists specializing in winter-themed performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 125,
@@ -1228,11 +1252,11 @@
             "organizerId": 103,
             "performerId": 1,
             "venueId": 303,
-            "startDateTime": "2024-04-10T10:00:00",
-            "endDateTime": "2024-04-10T20:00:00",
+            "startDateTime": "2024-04-10T10:00:00Z",
+            "endDateTime": "2024-04-10T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-17T19:00:00",
-            "modifiedOn": "2024-09-17T19:00:00",
+            "createdOn": "2024-09-17T19:00:00Z",
+            "modifiedOn": "2024-09-17T19:00:00Z",
             "offers": [
                 {
                     "offerId": 3,
@@ -1271,7 +1295,8 @@
             "performer": {
                 "name": "The Carnival Crew",
                 "bio": "A lively group known for their interactive performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 126,
@@ -1281,11 +1306,11 @@
             "organizerId": 104,
             "performerId": 1,
             "venueId": 304,
-            "startDateTime": "2024-11-05T12:00:00",
-            "endDateTime": "2024-11-05T20:00:00",
+            "startDateTime": "2024-11-05T12:00:00Z",
+            "endDateTime": "2024-11-05T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-18T19:00:00",
-            "modifiedOn": "2024-09-18T19:00:00",
+            "createdOn": "2024-09-18T19:00:00Z",
+            "modifiedOn": "2024-09-18T19:00:00Z",
             "offers": [
                 {
                     "offerId": 4,
@@ -1324,7 +1349,8 @@
             "performer": {
                 "name": "Harvest Band",
                 "bio": "An acoustic band known for their fall-themed performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 127,
@@ -1334,11 +1360,11 @@
             "organizerId": 105,
             "performerId": 1,
             "venueId": 305,
-            "startDateTime": "2024-10-20T09:00:00",
-            "endDateTime": "2024-10-20T18:00:00",
+            "startDateTime": "2024-10-20T09:00:00Z",
+            "endDateTime": "2024-10-20T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-19T19:00:00",
-            "modifiedOn": "2024-09-19T19:00:00",
+            "createdOn": "2024-09-19T19:00:00Z",
+            "modifiedOn": "2024-09-19T19:00:00Z",
             "offers": [
                 {
                     "offerId": 5,
@@ -1377,7 +1403,8 @@
             "performer": {
                 "name": "Tech Pioneers",
                 "bio": "A group of tech leaders showcasing their latest products."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 128,
@@ -1387,11 +1414,11 @@
             "organizerId": 106,
             "performerId": 1,
             "venueId": 306,
-            "startDateTime": "2024-07-08T10:00:00",
-            "endDateTime": "2024-07-08T17:00:00",
+            "startDateTime": "2024-07-08T10:00:00Z",
+            "endDateTime": "2024-07-08T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-20T19:00:00",
-            "modifiedOn": "2024-09-20T19:00:00",
+            "createdOn": "2024-09-20T19:00:00Z",
+            "modifiedOn": "2024-09-20T19:00:00Z",
             "offers": [
                 {
                     "offerId": 6,
@@ -1430,7 +1457,8 @@
             "performer": {
                 "name": "The Acoustic Trio",
                 "bio": "A local band providing live background music."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 129,
@@ -1440,11 +1468,11 @@
             "organizerId": 107,
             "performerId": 1,
             "venueId": 307,
-            "startDateTime": "2024-06-20T11:00:00",
-            "endDateTime": "2024-06-20T20:00:00",
+            "startDateTime": "2024-06-20T11:00:00Z",
+            "endDateTime": "2024-06-20T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-21T19:00:00",
-            "modifiedOn": "2024-09-21T19:00:00",
+            "createdOn": "2024-09-21T19:00:00Z",
+            "modifiedOn": "2024-09-21T19:00:00Z",
             "offers": [
                 {
                     "offerId": 7,
@@ -1483,7 +1511,8 @@
             "performer": {
                 "name": "DJ Flavor",
                 "bio": "A local DJ known for spinning upbeat, food-themed mixes."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 130,
@@ -1493,11 +1522,11 @@
             "organizerId": 108,
             "performerId": 1,
             "venueId": 308,
-            "startDateTime": "2024-05-18T08:00:00",
-            "endDateTime": "2024-05-18T10:00:00",
+            "startDateTime": "2024-05-18T08:00:00Z",
+            "endDateTime": "2024-05-18T10:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-22T19:00:00",
-            "modifiedOn": "2024-09-22T19:00:00",
+            "createdOn": "2024-09-22T19:00:00Z",
+            "modifiedOn": "2024-09-22T19:00:00Z",
             "offers": [
                 {
                     "offerId": 8,
@@ -1536,7 +1565,8 @@
             "performer": {
                 "name": "Yoga Guru",
                 "bio": "A certified yoga instructor known for his calming sessions."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 131,
@@ -1546,11 +1576,11 @@
             "organizerId": 109,
             "performerId": 1,
             "venueId": 309,
-            "startDateTime": "2024-11-01T10:00:00",
-            "endDateTime": "2024-11-08T22:00:00",
+            "startDateTime": "2024-11-01T10:00:00Z",
+            "endDateTime": "2024-11-08T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-23T19:00:00",
-            "modifiedOn": "2024-09-23T19:00:00",
+            "createdOn": "2024-09-23T19:00:00Z",
+            "modifiedOn": "2024-09-23T19:00:00Z",
             "offers": [
                 {
                     "offerId": 9,
@@ -1589,7 +1619,8 @@
             "performer": {
                 "name": "Film Directors Panel",
                 "bio": "A panel of indie film directors discussing their latest projects."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 132,
@@ -1599,11 +1630,11 @@
             "organizerId": 110,
             "performerId": 1,
             "venueId": 310,
-            "startDateTime": "2024-08-15T14:00:00",
-            "endDateTime": "2024-08-16T23:00:00",
+            "startDateTime": "2024-08-15T14:00:00Z",
+            "endDateTime": "2024-08-16T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-24T19:00:00",
-            "modifiedOn": "2024-09-24T19:00:00",
+            "createdOn": "2024-09-24T19:00:00Z",
+            "modifiedOn": "2024-09-24T19:00:00Z",
             "offers": [
                 {
                     "offerId": 10,
@@ -1642,7 +1673,8 @@
             "performer": {
                 "name": "The Rock Legends",
                 "bio": "A famous rock band known for their electric live performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 133,
@@ -1652,11 +1684,11 @@
             "organizerId": 111,
             "performerId": 1,
             "venueId": 311,
-            "startDateTime": "2024-07-12T09:00:00",
-            "endDateTime": "2024-07-13T17:00:00",
+            "startDateTime": "2024-07-12T09:00:00Z",
+            "endDateTime": "2024-07-13T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-25T19:00:00",
-            "modifiedOn": "2024-09-25T19:00:00",
+            "createdOn": "2024-09-25T19:00:00Z",
+            "modifiedOn": "2024-09-25T19:00:00Z",
             "offers": [
                 {
                     "offerId": 11,
@@ -1695,7 +1727,8 @@
             "performer": {
                 "name": "Jane Developer",
                 "bio": "A full-stack developer with 10+ years of experience in teaching coding."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 134,
@@ -1705,11 +1738,11 @@
             "organizerId": 112,
             "performerId": 1,
             "venueId": 312,
-            "startDateTime": "2024-09-10T18:00:00",
-            "endDateTime": "2024-09-10T21:00:00",
+            "startDateTime": "2024-09-10T18:00:00Z",
+            "endDateTime": "2024-09-10T21:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-26T19:00:00",
-            "modifiedOn": "2024-09-26T19:00:00",
+            "createdOn": "2024-09-26T19:00:00Z",
+            "modifiedOn": "2024-09-26T19:00:00Z",
             "offers": [
                 {
                     "offerId": 12,
@@ -1748,7 +1781,8 @@
             "performer": {
                 "name": "Sommelier Paul",
                 "bio": "A world-renowned sommelier with expertise in wine pairings."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 135,
@@ -1758,11 +1792,11 @@
             "organizerId": 113,
             "performerId": 1,
             "venueId": 313,
-            "startDateTime": "2024-10-05T08:00:00",
-            "endDateTime": "2024-10-05T11:00:00",
+            "startDateTime": "2024-10-05T08:00:00Z",
+            "endDateTime": "2024-10-05T11:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-27T19:00:00",
-            "modifiedOn": "2024-09-27T19:00:00",
+            "createdOn": "2024-09-27T19:00:00Z",
+            "modifiedOn": "2024-09-27T19:00:00Z",
             "offers": [
                 {
                     "offerId": 13,
@@ -1801,7 +1835,8 @@
             "performer": {
                 "name": "Local DJ",
                 "bio": "A popular DJ spinning music at the event start and finish lines."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 136,
@@ -1811,11 +1846,11 @@
             "organizerId": 111,
             "performerId": 1,
             "venueId": 311,
-            "startDateTime": "2024-11-05T08:00:00",
-            "endDateTime": "2024-11-07T17:00:00",
+            "startDateTime": "2024-11-05T08:00:00Z",
+            "endDateTime": "2024-11-07T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-15T19:00:00",
-            "modifiedOn": "2024-09-15T19:00:00",
+            "createdOn": "2024-09-15T19:00:00Z",
+            "modifiedOn": "2024-09-15T19:00:00Z",
             "offers": [
                 {
                     "offerId": 11,
@@ -1854,7 +1889,8 @@
             "performer": {
                 "name": "Yogi Sara",
                 "bio": "A certified yoga instructor with years of experience in holistic wellness."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 137,
@@ -1864,11 +1900,11 @@
             "organizerId": 115,
             "performerId": 1,
             "venueId": 315,
-            "startDateTime": "2024-11-15T10:00:00",
-            "endDateTime": "2024-11-15T18:00:00",
+            "startDateTime": "2024-11-15T10:00:00Z",
+            "endDateTime": "2024-11-15T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-29T19:00:00",
-            "modifiedOn": "2024-09-29T19:00:00",
+            "createdOn": "2024-09-29T19:00:00Z",
+            "modifiedOn": "2024-09-29T19:00:00Z",
             "offers": [
                 {
                     "offerId": 15,
@@ -1907,7 +1943,8 @@
             "performer": {
                 "name": "Food Critic Jane",
                 "bio": "A renowned food critic known for her culinary expertise."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 138,
@@ -1917,11 +1954,11 @@
             "organizerId": 116,
             "performerId": 1,
             "venueId": 316,
-            "startDateTime": "2024-10-12T09:00:00",
-            "endDateTime": "2024-10-12T16:00:00",
+            "startDateTime": "2024-10-12T09:00:00Z",
+            "endDateTime": "2024-10-12T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-30T19:00:00",
-            "modifiedOn": "2024-09-30T19:00:00",
+            "createdOn": "2024-09-30T19:00:00Z",
+            "modifiedOn": "2024-09-30T19:00:00Z",
             "offers": [
                 {
                     "offerId": 16,
@@ -1960,7 +1997,8 @@
             "performer": {
                 "name": "Artist Max",
                 "bio": "A professional artist with experience in various painting techniques."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 139,
@@ -1970,11 +2008,11 @@
             "organizerId": 117,
             "performerId": 1,
             "venueId": 317,
-            "startDateTime": "2024-06-15T07:00:00",
-            "endDateTime": "2024-06-15T12:00:00",
+            "startDateTime": "2024-06-15T07:00:00Z",
+            "endDateTime": "2024-06-15T12:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-01T19:00:00",
-            "modifiedOn": "2024-10-01T19:00:00",
+            "createdOn": "2024-10-01T19:00:00Z",
+            "modifiedOn": "2024-10-01T19:00:00Z",
             "offers": [
                 {
                     "offerId": 17,
@@ -2013,7 +2051,8 @@
             "performer": {
                 "name": "Coach Karen",
                 "bio": "A fitness expert with extensive experience in bootcamp training."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 140,
@@ -2023,11 +2062,11 @@
             "organizerId": 118,
             "performerId": 1,
             "venueId": 318,
-            "startDateTime": "2024-05-20T10:00:00",
-            "endDateTime": "2024-05-20T17:00:00",
+            "startDateTime": "2024-05-20T10:00:00Z",
+            "endDateTime": "2024-05-20T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-02T19:00:00",
-            "modifiedOn": "2024-10-02T19:00:00",
+            "createdOn": "2024-10-02T19:00:00Z",
+            "modifiedOn": "2024-10-02T19:00:00Z",
             "offers": [
                 {
                     "offerId": 18,
@@ -2066,7 +2105,8 @@
             "performer": {
                 "name": "Author John",
                 "bio": "A bestselling author participating in book signings and panels."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 141,
@@ -2076,11 +2116,11 @@
             "organizerId": 119,
             "performerId": 1,
             "venueId": 319,
-            "startDateTime": "2024-09-10T09:00:00",
-            "endDateTime": "2024-09-10T16:00:00",
+            "startDateTime": "2024-09-10T09:00:00Z",
+            "endDateTime": "2024-09-10T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-03T19:00:00",
-            "modifiedOn": "2024-10-03T19:00:00",
+            "createdOn": "2024-10-03T19:00:00Z",
+            "modifiedOn": "2024-10-03T19:00:00Z",
             "offers": [
                 {
                     "offerId": 19,
@@ -2119,7 +2159,8 @@
             "performer": {
                 "name": "Professor Adams",
                 "bio": "A leading scientist known for contributions to innovative technology."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 142,
@@ -2129,11 +2170,11 @@
             "organizerId": 120,
             "performerId": 1,
             "venueId": 320,
-            "startDateTime": "2024-12-01T10:00:00",
-            "endDateTime": "2024-12-01T16:00:00",
+            "startDateTime": "2024-12-01T10:00:00Z",
+            "endDateTime": "2024-12-01T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-04T19:00:00",
-            "modifiedOn": "2024-10-04T19:00:00",
+            "createdOn": "2024-10-04T19:00:00Z",
+            "modifiedOn": "2024-10-04T19:00:00Z",
             "offers": [
                 {
                     "offerId": 20,
@@ -2172,7 +2213,8 @@
             "performer": {
                 "name": "Car Enthusiast Mike",
                 "bio": "A classic car aficionado with extensive knowledge of vintage vehicles."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 143,
@@ -2182,11 +2224,11 @@
             "organizerId": 121,
             "performerId": 1,
             "venueId": 321,
-            "startDateTime": "2024-11-20T10:00:00",
-            "endDateTime": "2024-11-20T15:00:00",
+            "startDateTime": "2024-11-20T10:00:00Z",
+            "endDateTime": "2024-11-20T15:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-05T19:00:00",
-            "modifiedOn": "2024-10-05T19:00:00",
+            "createdOn": "2024-10-05T19:00:00Z",
+            "modifiedOn": "2024-10-05T19:00:00Z",
             "offers": [
                 {
                     "offerId": 21,
@@ -2225,7 +2267,8 @@
             "performer": {
                 "name": "Chef Laura",
                 "bio": "A renowned chef known for her exquisite cooking and teaching skills."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 144,
@@ -2235,11 +2278,11 @@
             "organizerId": 122,
             "performerId": 1,
             "venueId": 322,
-            "startDateTime": "2024-07-15T09:00:00",
-            "endDateTime": "2024-07-15T17:00:00",
+            "startDateTime": "2024-07-15T09:00:00Z",
+            "endDateTime": "2024-07-15T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-06T19:00:00",
-            "modifiedOn": "2024-10-06T19:00:00",
+            "createdOn": "2024-10-06T19:00:00Z",
+            "modifiedOn": "2024-10-06T19:00:00Z",
             "offers": [
                 {
                     "offerId": 22,
@@ -2278,7 +2321,8 @@
             "performer": {
                 "name": "Antique Dealer John",
                 "bio": "A vintage and antique expert with a passion for historical items."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 145,
@@ -2288,11 +2332,11 @@
             "organizerId": 123,
             "performerId": 1,
             "venueId": 323,
-            "startDateTime": "2024-12-10T19:00:00",
-            "endDateTime": "2024-12-10T22:00:00",
+            "startDateTime": "2024-12-10T19:00:00Z",
+            "endDateTime": "2024-12-10T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-07T19:00:00",
-            "modifiedOn": "2024-10-07T19:00:00",
+            "createdOn": "2024-10-07T19:00:00Z",
+            "modifiedOn": "2024-10-07T19:00:00Z",
             "offers": [
                 {
                     "offerId": 23,
@@ -2331,7 +2375,8 @@
             "performer": {
                 "name": "Sommelier Eve",
                 "bio": "A top sommelier with expertise in fine wines and wine pairings."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 146,
@@ -2341,11 +2386,11 @@
             "organizerId": 103,
             "performerId": 1,
             "venueId": 303,
-            "startDateTime": "2024-11-20T09:00:00",
-            "endDateTime": "2024-11-20T17:00:00",
+            "startDateTime": "2024-11-20T09:00:00Z",
+            "endDateTime": "2024-11-20T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-17T10:00:00",
-            "modifiedOn": "2024-09-17T10:00:00",
+            "createdOn": "2024-09-17T10:00:00Z",
+            "modifiedOn": "2024-09-17T10:00:00Z",
             "offers": [
                 {
                     "offerId": 3,
@@ -2384,7 +2429,8 @@
             "performer": {
                 "name": "Keynote Speakers",
                 "bio": "Industry leaders sharing insights on the future of technology."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 147,
@@ -2394,11 +2440,11 @@
             "organizerId": 104,
             "performerId": 1,
             "venueId": 304,
-            "startDateTime": "2024-10-10T10:00:00",
-            "endDateTime": "2024-10-10T20:00:00",
+            "startDateTime": "2024-10-10T10:00:00Z",
+            "endDateTime": "2024-10-10T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-18T12:00:00",
-            "modifiedOn": "2024-09-18T12:00:00",
+            "createdOn": "2024-09-18T12:00:00Z",
+            "modifiedOn": "2024-09-18T12:00:00Z",
             "offers": [
                 {
                     "offerId": 4,
@@ -2437,7 +2483,8 @@
             "performer": {
                 "name": "Curated Artists",
                 "bio": "Up-and-coming talents in the contemporary art scene."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 148,
@@ -2447,11 +2494,11 @@
             "organizerId": 105,
             "performerId": 1,
             "venueId": 305,
-            "startDateTime": "2024-09-28T12:00:00",
-            "endDateTime": "2024-09-29T22:00:00",
+            "startDateTime": "2024-09-28T12:00:00Z",
+            "endDateTime": "2024-09-29T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-19T09:00:00",
-            "modifiedOn": "2024-09-19T09:00:00",
+            "createdOn": "2024-09-19T09:00:00Z",
+            "modifiedOn": "2024-09-19T09:00:00Z",
             "offers": [
                 {
                     "offerId": 5,
@@ -2490,7 +2537,8 @@
             "performer": {
                 "name": "Local Chefs",
                 "bio": "Talented chefs showcasing their signature dishes."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 149,
@@ -2500,11 +2548,11 @@
             "organizerId": 106,
             "performerId": 1,
             "venueId": 306,
-            "startDateTime": "2024-10-20T20:00:00",
-            "endDateTime": "2024-10-21T01:00:00",
+            "startDateTime": "2024-10-20T20:00:00Z",
+            "endDateTime": "2024-10-21T01:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-20T14:00:00",
-            "modifiedOn": "2024-09-20T14:00:00",
+            "createdOn": "2024-09-20T14:00:00Z",
+            "modifiedOn": "2024-09-20T14:00:00Z",
             "offers": [
                 {
                     "offerId": 6,
@@ -2543,7 +2591,8 @@
             "performer": {
                 "name": "Top Rock Bands",
                 "bio": "Performing the biggest rock hits of the year."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 150,
@@ -2553,11 +2602,11 @@
             "organizerId": 108,
             "performerId": 1,
             "venueId": 308,
-            "startDateTime": "2024-10-12T20:00:00",
-            "endDateTime": "2024-10-12T23:00:00",
+            "startDateTime": "2024-10-12T20:00:00Z",
+            "endDateTime": "2024-10-12T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-22T13:00:00",
-            "modifiedOn": "2024-09-22T13:00:00",
+            "createdOn": "2024-09-22T13:00:00Z",
+            "modifiedOn": "2024-09-22T13:00:00Z",
             "offers": [
                 {
                     "offerId": 8,
@@ -2596,7 +2645,8 @@
             "performer": {
                 "name": "Top Comedians",
                 "bio": "Well-known comedians delivering side-splitting performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 151,
@@ -2606,11 +2656,11 @@
             "organizerId": 109,
             "performerId": 1,
             "venueId": 309,
-            "startDateTime": "2024-11-15T10:00:00",
-            "endDateTime": "2024-11-15T22:00:00",
+            "startDateTime": "2024-11-15T10:00:00Z",
+            "endDateTime": "2024-11-15T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-23T14:00:00",
-            "modifiedOn": "2024-09-23T14:00:00",
+            "createdOn": "2024-09-23T14:00:00Z",
+            "modifiedOn": "2024-09-23T14:00:00Z",
             "offers": [
                 {
                     "offerId": 9,
@@ -2649,7 +2699,8 @@
             "performer": {
                 "name": "Independent Filmmakers",
                 "bio": "Visionaries in the world of independent cinema."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 152,
@@ -2659,11 +2710,11 @@
             "organizerId": 110,
             "performerId": 1,
             "venueId": 310,
-            "startDateTime": "2024-10-22T08:00:00",
-            "endDateTime": "2024-10-23T18:00:00",
+            "startDateTime": "2024-10-22T08:00:00Z",
+            "endDateTime": "2024-10-23T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-24T09:00:00",
-            "modifiedOn": "2024-09-24T09:00:00",
+            "createdOn": "2024-09-24T09:00:00Z",
+            "modifiedOn": "2024-09-24T09:00:00Z",
             "offers": [
                 {
                     "offerId": 10,
@@ -2702,7 +2753,8 @@
             "performer": {
                 "name": "Certified Instructors",
                 "bio": "Experienced professionals in yoga and mindfulness."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 153,
@@ -2712,11 +2764,11 @@
             "organizerId": 111,
             "performerId": 1,
             "venueId": 311,
-            "startDateTime": "2024-11-02T18:00:00",
-            "endDateTime": "2024-11-02T22:00:00",
+            "startDateTime": "2024-11-02T18:00:00Z",
+            "endDateTime": "2024-11-02T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-25T11:00:00",
-            "modifiedOn": "2024-09-25T11:00:00",
+            "createdOn": "2024-09-25T11:00:00Z",
+            "modifiedOn": "2024-09-25T11:00:00Z",
             "offers": [
                 {
                     "offerId": 11,
@@ -2755,7 +2807,8 @@
             "performer": {
                 "name": "Top Designers",
                 "bio": "Leading designers unveiling their new collections."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 154,
@@ -2765,11 +2818,11 @@
             "organizerId": 112,
             "performerId": 1,
             "venueId": 312,
-            "startDateTime": "2024-11-25T06:00:00",
-            "endDateTime": "2024-11-25T14:00:00",
+            "startDateTime": "2024-11-25T06:00:00Z",
+            "endDateTime": "2024-11-25T14:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-26T08:00:00",
-            "modifiedOn": "2024-09-26T08:00:00",
+            "createdOn": "2024-09-26T08:00:00Z",
+            "modifiedOn": "2024-09-26T08:00:00Z",
             "offers": [
                 {
                     "offerId": 12,
@@ -2808,7 +2861,8 @@
             "performer": {
                 "name": "Athletes Worldwide",
                 "bio": "Professional and amateur athletes participating from around the globe."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 155,
@@ -2818,11 +2872,11 @@
             "organizerId": 113,
             "performerId": 1,
             "venueId": 313,
-            "startDateTime": "2024-12-05T10:00:00",
-            "endDateTime": "2024-12-05T16:00:00",
+            "startDateTime": "2024-12-05T10:00:00Z",
+            "endDateTime": "2024-12-05T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-27T09:00:00",
-            "modifiedOn": "2024-09-27T09:00:00",
+            "createdOn": "2024-09-27T09:00:00Z",
+            "modifiedOn": "2024-09-27T09:00:00Z",
             "offers": [
                 {
                     "offerId": 13,
@@ -2861,7 +2915,8 @@
             "performer": {
                 "name": "Celebrity Chefs",
                 "bio": "Renowned chefs sharing their secrets to gourmet cooking."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 156,
@@ -2871,11 +2926,11 @@
             "organizerId": 114,
             "performerId": 1,
             "venueId": 314,
-            "startDateTime": "2024-12-10T10:00:00",
-            "endDateTime": "2024-12-10T18:00:00",
+            "startDateTime": "2024-12-10T10:00:00Z",
+            "endDateTime": "2024-12-10T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-28T10:00:00",
-            "modifiedOn": "2024-09-28T10:00:00",
+            "createdOn": "2024-09-28T10:00:00Z",
+            "modifiedOn": "2024-09-28T10:00:00Z",
             "offers": [
                 {
                     "offerId": 14,
@@ -2914,7 +2969,8 @@
             "performer": {
                 "name": "International Artists",
                 "bio": "Talented artists from around the world showcasing their work."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 157,
@@ -2924,11 +2980,11 @@
             "organizerId": 115,
             "performerId": 1,
             "venueId": 315,
-            "startDateTime": "2024-12-31T20:00:00",
-            "endDateTime": "2025-01-01T02:00:00",
+            "startDateTime": "2024-12-31T20:00:00Z",
+            "endDateTime": "2025-01-01T02:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-29T11:00:00",
-            "modifiedOn": "2024-09-29T11:00:00",
+            "createdOn": "2024-09-29T11:00:00Z",
+            "modifiedOn": "2024-09-29T11:00:00Z",
             "offers": [
                 {
                     "offerId": 15,
@@ -2967,7 +3023,8 @@
             "performer": {
                 "name": "Top DJs and Performers",
                 "bio": "Renowned artists and DJs performing live to ring in the new year."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 158,
@@ -2977,11 +3034,11 @@
             "organizerId": 116,
             "performerId": 1,
             "venueId": 316,
-            "startDateTime": "2024-12-10T09:00:00",
-            "endDateTime": "2024-12-12T17:00:00",
+            "startDateTime": "2024-12-10T09:00:00Z",
+            "endDateTime": "2024-12-12T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-09-30T10:00:00",
-            "modifiedOn": "2024-09-30T10:00:00",
+            "createdOn": "2024-09-30T10:00:00Z",
+            "modifiedOn": "2024-09-30T10:00:00Z",
             "offers": [
                 {
                     "offerId": 16,
@@ -3020,7 +3077,8 @@
             "performer": {
                 "name": "Industry Leaders",
                 "bio": "Keynote speakers and innovators from top tech companies."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 159,
@@ -3030,11 +3088,11 @@
             "organizerId": 117,
             "performerId": 1,
             "venueId": 317,
-            "startDateTime": "2024-10-20T18:00:00",
-            "endDateTime": "2024-10-25T22:00:00",
+            "startDateTime": "2024-10-20T18:00:00Z",
+            "endDateTime": "2024-10-25T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-01T11:00:00",
-            "modifiedOn": "2024-10-01T11:00:00",
+            "createdOn": "2024-10-01T11:00:00Z",
+            "modifiedOn": "2024-10-01T11:00:00Z",
             "offers": [
                 {
                     "offerId": 17,
@@ -3073,7 +3131,8 @@
             "performer": {
                 "name": "Top Fashion Designers",
                 "bio": "Leading designers presenting their latest collections."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 160,
@@ -3083,11 +3142,11 @@
             "organizerId": 118,
             "performerId": 1,
             "venueId": 318,
-            "startDateTime": "2024-11-05T19:00:00",
-            "endDateTime": "2024-11-05T23:30:00",
+            "startDateTime": "2024-11-05T19:00:00Z",
+            "endDateTime": "2024-11-05T23:30:00Z",
             "status": "Published",
-            "createdOn": "2024-10-02T12:00:00",
-            "modifiedOn": "2024-10-02T12:00:00",
+            "createdOn": "2024-10-02T12:00:00Z",
+            "modifiedOn": "2024-10-02T12:00:00Z",
             "offers": [
                 {
                     "offerId": 18,
@@ -3126,7 +3185,8 @@
             "performer": {
                 "name": "Famous Rock Bands",
                 "bio": "Popular bands performing their greatest hits."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 161,
@@ -3136,11 +3196,11 @@
             "organizerId": 119,
             "performerId": 1,
             "venueId": 319,
-            "startDateTime": "2024-11-15T09:00:00",
-            "endDateTime": "2024-11-16T18:00:00",
+            "startDateTime": "2024-11-15T09:00:00Z",
+            "endDateTime": "2024-11-16T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-03T09:00:00",
-            "modifiedOn": "2024-10-03T09:00:00",
+            "createdOn": "2024-10-03T09:00:00Z",
+            "modifiedOn": "2024-10-03T09:00:00Z",
             "offers": [
                 {
                     "offerId": 19,
@@ -3179,7 +3239,8 @@
             "performer": {
                 "name": "Tech Entrepreneurs",
                 "bio": "Leading innovators sharing their experiences."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 162,
@@ -3189,11 +3250,11 @@
             "organizerId": 120,
             "performerId": 1,
             "venueId": 320,
-            "startDateTime": "2024-12-01T19:00:00",
-            "endDateTime": "2024-12-01T22:00:00",
+            "startDateTime": "2024-12-01T19:00:00Z",
+            "endDateTime": "2024-12-01T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-04T10:00:00",
-            "modifiedOn": "2024-10-04T10:00:00",
+            "createdOn": "2024-10-04T10:00:00Z",
+            "modifiedOn": "2024-10-04T10:00:00Z",
             "offers": [
                 {
                     "offerId": 20,
@@ -3232,7 +3293,8 @@
             "performer": {
                 "name": "Top Comedians",
                 "bio": "Renowned comedians delivering hilarious performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 163,
@@ -3242,11 +3304,11 @@
             "organizerId": 121,
             "performerId": 1,
             "venueId": 321,
-            "startDateTime": "2024-11-20T18:00:00",
-            "endDateTime": "2024-11-20T23:00:00",
+            "startDateTime": "2024-11-20T18:00:00Z",
+            "endDateTime": "2024-11-20T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-05T12:00:00",
-            "modifiedOn": "2024-10-05T12:00:00",
+            "createdOn": "2024-10-05T12:00:00Z",
+            "modifiedOn": "2024-10-05T12:00:00Z",
             "offers": [
                 {
                     "offerId": 21,
@@ -3285,7 +3347,8 @@
             "performer": {
                 "name": "Famous Jazz Musicians",
                 "bio": "Internationally acclaimed musicians performing live jazz."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 164,
@@ -3295,11 +3358,11 @@
             "organizerId": 122,
             "performerId": 1,
             "venueId": 322,
-            "startDateTime": "2024-11-25T18:30:00",
-            "endDateTime": "2024-11-25T21:30:00",
+            "startDateTime": "2024-11-25T18:30:00Z",
+            "endDateTime": "2024-11-25T21:30:00Z",
             "status": "Published",
-            "createdOn": "2024-10-06T10:00:00",
-            "modifiedOn": "2024-10-06T10:00:00",
+            "createdOn": "2024-10-06T10:00:00Z",
+            "modifiedOn": "2024-10-06T10:00:00Z",
             "offers": [
                 {
                     "offerId": 22,
@@ -3335,7 +3398,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 165,
@@ -3345,11 +3409,11 @@
             "organizerId": 123,
             "performerId": 1,
             "venueId": 323,
-            "startDateTime": "2024-11-30T10:00:00",
-            "endDateTime": "2024-11-30T17:00:00",
+            "startDateTime": "2024-11-30T10:00:00Z",
+            "endDateTime": "2024-11-30T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-07T09:00:00",
-            "modifiedOn": "2024-10-07T09:00:00",
+            "createdOn": "2024-10-07T09:00:00Z",
+            "modifiedOn": "2024-10-07T09:00:00Z",
             "offers": [
                 {
                     "offerId": 23,
@@ -3388,7 +3452,8 @@
             "performer": {
                 "name": "John Doe",
                 "bio": "A renowned photographer with over 20 years of experience."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 166,
@@ -3398,11 +3463,11 @@
             "organizerId": 124,
             "performerId": 1,
             "venueId": 324,
-            "startDateTime": "2024-12-10T16:00:00",
-            "endDateTime": "2024-12-10T18:00:00",
+            "startDateTime": "2024-12-10T16:00:00Z",
+            "endDateTime": "2024-12-10T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-08T11:00:00",
-            "modifiedOn": "2024-10-08T11:00:00",
+            "createdOn": "2024-10-08T11:00:00Z",
+            "modifiedOn": "2024-10-08T11:00:00Z",
             "offers": [
                 {
                     "offerId": 24,
@@ -3441,7 +3506,8 @@
             "performer": {
                 "name": "Jane Smith",
                 "bio": "The acclaimed author of the 'New Horizons' book series."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 167,
@@ -3451,11 +3517,11 @@
             "organizerId": 125,
             "performerId": 1,
             "venueId": 325,
-            "startDateTime": "2024-12-15T11:00:00",
-            "endDateTime": "2024-12-17T22:00:00",
+            "startDateTime": "2024-12-15T11:00:00Z",
+            "endDateTime": "2024-12-17T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-09T10:00:00",
-            "modifiedOn": "2024-10-09T10:00:00",
+            "createdOn": "2024-10-09T10:00:00Z",
+            "modifiedOn": "2024-10-09T10:00:00Z",
             "offers": [
                 {
                     "offerId": 25,
@@ -3491,7 +3557,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 168,
@@ -3501,11 +3568,11 @@
             "organizerId": 126,
             "performerId": 1,
             "venueId": 326,
-            "startDateTime": "2024-12-20T10:00:00",
-            "endDateTime": "2024-12-30T18:00:00",
+            "startDateTime": "2024-12-20T10:00:00Z",
+            "endDateTime": "2024-12-30T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-10T09:00:00",
-            "modifiedOn": "2024-10-10T09:00:00",
+            "createdOn": "2024-10-10T09:00:00Z",
+            "modifiedOn": "2024-10-10T09:00:00Z",
             "offers": [
                 {
                     "offerId": 26,
@@ -3541,7 +3608,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 169,
@@ -3551,11 +3619,11 @@
             "organizerId": 127,
             "performerId": 1,
             "venueId": 327,
-            "startDateTime": "2024-12-22T08:00:00",
-            "endDateTime": "2024-12-24T17:00:00",
+            "startDateTime": "2024-12-22T08:00:00Z",
+            "endDateTime": "2024-12-24T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-11T10:00:00",
-            "modifiedOn": "2024-10-11T10:00:00",
+            "createdOn": "2024-10-11T10:00:00Z",
+            "modifiedOn": "2024-10-11T10:00:00Z",
             "offers": [
                 {
                     "offerId": 27,
@@ -3594,7 +3662,8 @@
             "performer": {
                 "name": "Sarah Jones",
                 "bio": "A certified yoga instructor with over 10 years of experience."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 170,
@@ -3604,11 +3673,11 @@
             "organizerId": 128,
             "performerId": 1,
             "venueId": 328,
-            "startDateTime": "2024-12-28T19:00:00",
-            "endDateTime": "2024-12-28T23:00:00",
+            "startDateTime": "2024-12-28T19:00:00Z",
+            "endDateTime": "2024-12-28T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-12T09:00:00",
-            "modifiedOn": "2024-10-12T09:00:00",
+            "createdOn": "2024-10-12T09:00:00Z",
+            "modifiedOn": "2024-10-12T09:00:00Z",
             "offers": [
                 {
                     "offerId": 28,
@@ -3647,7 +3716,8 @@
             "performer": {
                 "name": "The Jazz Ensemble",
                 "bio": "A group of talented jazz musicians from around the world."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 171,
@@ -3657,11 +3727,11 @@
             "organizerId": 129,
             "performerId": 1,
             "venueId": 329,
-            "startDateTime": "2024-12-30T09:00:00",
-            "endDateTime": "2024-12-31T18:00:00",
+            "startDateTime": "2024-12-30T09:00:00Z",
+            "endDateTime": "2024-12-31T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-13T08:00:00",
-            "modifiedOn": "2024-10-13T08:00:00",
+            "createdOn": "2024-10-13T08:00:00Z",
+            "modifiedOn": "2024-10-13T08:00:00Z",
             "offers": [
                 {
                     "offerId": 29,
@@ -3697,7 +3767,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 172,
@@ -3707,11 +3778,11 @@
             "organizerId": 130,
             "performerId": 1,
             "venueId": 330,
-            "startDateTime": "2024-12-31T20:00:00",
-            "endDateTime": "2025-01-01T01:00:00",
+            "startDateTime": "2024-12-31T20:00:00Z",
+            "endDateTime": "2025-01-01T01:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-14T09:00:00",
-            "modifiedOn": "2024-10-14T09:00:00",
+            "createdOn": "2024-10-14T09:00:00Z",
+            "modifiedOn": "2024-10-14T09:00:00Z",
             "offers": [
                 {
                     "offerId": 30,
@@ -3750,7 +3821,8 @@
             "performer": {
                 "name": "DJ Max",
                 "bio": "A famous DJ known for his electrifying New Year's Eve performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 173,
@@ -3760,11 +3832,11 @@
             "organizerId": 131,
             "performerId": 1,
             "venueId": 331,
-            "startDateTime": "2025-01-05T10:00:00",
-            "endDateTime": "2025-01-06T18:00:00",
+            "startDateTime": "2025-01-05T10:00:00Z",
+            "endDateTime": "2025-01-06T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-15T09:30:00",
-            "modifiedOn": "2024-10-15T09:30:00",
+            "createdOn": "2024-10-15T09:30:00Z",
+            "modifiedOn": "2024-10-15T09:30:00Z",
             "offers": [
                 {
                     "offerId": 31,
@@ -3800,7 +3872,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 174,
@@ -3810,11 +3883,11 @@
             "organizerId": 132,
             "performerId": 1,
             "venueId": 332,
-            "startDateTime": "2025-01-12T08:00:00",
-            "endDateTime": "2025-01-12T17:00:00",
+            "startDateTime": "2025-01-12T08:00:00Z",
+            "endDateTime": "2025-01-12T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-16T10:00:00",
-            "modifiedOn": "2024-10-16T10:00:00",
+            "createdOn": "2024-10-16T10:00:00Z",
+            "modifiedOn": "2024-10-16T10:00:00Z",
             "offers": [
                 {
                     "offerId": 32,
@@ -3850,7 +3923,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 175,
@@ -3860,11 +3934,11 @@
             "organizerId": 133,
             "performerId": 1,
             "venueId": 333,
-            "startDateTime": "2025-01-15T11:00:00",
-            "endDateTime": "2025-01-15T20:00:00",
+            "startDateTime": "2025-01-15T11:00:00Z",
+            "endDateTime": "2025-01-15T20:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-17T11:00:00",
-            "modifiedOn": "2024-10-17T11:00:00",
+            "createdOn": "2024-10-17T11:00:00Z",
+            "modifiedOn": "2024-10-17T11:00:00Z",
             "offers": [
                 {
                     "offerId": 33,
@@ -3900,7 +3974,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 176,
@@ -3910,11 +3985,11 @@
             "organizerId": 134,
             "performerId": 1,
             "venueId": 334,
-            "startDateTime": "2025-01-20T19:00:00",
-            "endDateTime": "2025-01-20T22:00:00",
+            "startDateTime": "2025-01-20T19:00:00Z",
+            "endDateTime": "2025-01-20T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-18T12:00:00",
-            "modifiedOn": "2024-10-18T12:00:00",
+            "createdOn": "2024-10-18T12:00:00Z",
+            "modifiedOn": "2024-10-18T12:00:00Z",
             "offers": [
                 {
                     "offerId": 34,
@@ -3953,7 +4028,8 @@
             "performer": {
                 "name": "Orchestra of the Stars",
                 "bio": "A world-renowned orchestra known for their breathtaking performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 177,
@@ -3963,11 +4039,11 @@
             "organizerId": 135,
             "performerId": 1,
             "venueId": 335,
-            "startDateTime": "2025-01-25T19:30:00",
-            "endDateTime": "2025-01-25T22:00:00",
+            "startDateTime": "2025-01-25T19:30:00Z",
+            "endDateTime": "2025-01-25T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-19T10:30:00",
-            "modifiedOn": "2024-10-19T10:30:00",
+            "createdOn": "2024-10-19T10:30:00Z",
+            "modifiedOn": "2024-10-19T10:30:00Z",
             "offers": [
                 {
                     "offerId": 35,
@@ -4006,7 +4082,8 @@
             "performer": {
                 "name": "Comedian Dave",
                 "bio": "A hilarious comedian known for his witty observations and energetic performances."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 178,
@@ -4016,11 +4093,11 @@
             "organizerId": 136,
             "performerId": 1,
             "venueId": 336,
-            "startDateTime": "2025-02-01T07:00:00",
-            "endDateTime": "2025-02-03T17:00:00",
+            "startDateTime": "2025-02-01T07:00:00Z",
+            "endDateTime": "2025-02-03T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-20T09:00:00",
-            "modifiedOn": "2024-10-20T09:00:00",
+            "createdOn": "2024-10-20T09:00:00Z",
+            "modifiedOn": "2024-10-20T09:00:00Z",
             "offers": [
                 {
                     "offerId": 36,
@@ -4056,7 +4133,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 179,
@@ -4066,11 +4144,11 @@
             "organizerId": 137,
             "performerId": 1,
             "venueId": 337,
-            "startDateTime": "2025-02-10T09:00:00",
-            "endDateTime": "2025-02-14T17:00:00",
+            "startDateTime": "2025-02-10T09:00:00Z",
+            "endDateTime": "2025-02-14T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-21T11:00:00",
-            "modifiedOn": "2024-10-21T11:00:00",
+            "createdOn": "2024-10-21T11:00:00Z",
+            "modifiedOn": "2024-10-21T11:00:00Z",
             "offers": [
                 {
                     "offerId": 37,
@@ -4106,7 +4184,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 180,
@@ -4116,11 +4195,11 @@
             "organizerId": 138,
             "performerId": 1,
             "venueId": 338,
-            "startDateTime": "2025-02-20T10:00:00",
-            "endDateTime": "2025-02-27T22:00:00",
+            "startDateTime": "2025-02-20T10:00:00Z",
+            "endDateTime": "2025-02-27T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-22T12:00:00",
-            "modifiedOn": "2024-10-22T12:00:00",
+            "createdOn": "2024-10-22T12:00:00Z",
+            "modifiedOn": "2024-10-22T12:00:00Z",
             "offers": [
                 {
                     "offerId": 38,
@@ -4156,7 +4235,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 181,
@@ -4166,11 +4246,11 @@
             "organizerId": 139,
             "performerId": 1,
             "venueId": 339,
-            "startDateTime": "2025-03-05T19:00:00",
-            "endDateTime": "2025-03-05T22:00:00",
+            "startDateTime": "2025-03-05T19:00:00Z",
+            "endDateTime": "2025-03-05T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-23T15:00:00",
-            "modifiedOn": "2024-10-23T15:00:00",
+            "createdOn": "2024-10-23T15:00:00Z",
+            "modifiedOn": "2024-10-23T15:00:00Z",
             "offers": [
                 {
                     "offerId": 39,
@@ -4206,7 +4286,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 182,
@@ -4216,11 +4297,11 @@
             "organizerId": 140,
             "performerId": 1,
             "venueId": 340,
-            "startDateTime": "2025-03-10T09:00:00",
-            "endDateTime": "2025-03-10T16:00:00",
+            "startDateTime": "2025-03-10T09:00:00Z",
+            "endDateTime": "2025-03-10T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-24T10:30:00",
-            "modifiedOn": "2024-10-24T10:30:00",
+            "createdOn": "2024-10-24T10:30:00Z",
+            "modifiedOn": "2024-10-24T10:30:00Z",
             "offers": [
                 {
                     "offerId": 40,
@@ -4256,7 +4337,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 183,
@@ -4266,11 +4348,11 @@
             "organizerId": 141,
             "performerId": 1,
             "venueId": 341,
-            "startDateTime": "2025-03-20T10:00:00",
-            "endDateTime": "2025-03-27T18:00:00",
+            "startDateTime": "2025-03-20T10:00:00Z",
+            "endDateTime": "2025-03-27T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-25T12:00:00",
-            "modifiedOn": "2024-10-25T12:00:00",
+            "createdOn": "2024-10-25T12:00:00Z",
+            "modifiedOn": "2024-10-25T12:00:00Z",
             "offers": [
                 {
                     "offerId": 41,
@@ -4306,7 +4388,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 184,
@@ -4316,11 +4399,11 @@
             "organizerId": 142,
             "performerId": 1,
             "venueId": 342,
-            "startDateTime": "2025-03-25T09:00:00",
-            "endDateTime": "2025-03-25T17:00:00",
+            "startDateTime": "2025-03-25T09:00:00Z",
+            "endDateTime": "2025-03-25T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-26T11:00:00",
-            "modifiedOn": "2024-10-26T11:00:00",
+            "createdOn": "2024-10-26T11:00:00Z",
+            "modifiedOn": "2024-10-26T11:00:00Z",
             "offers": [
                 {
                     "offerId": 42,
@@ -4356,7 +4439,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 185,
@@ -4366,11 +4450,11 @@
             "organizerId": 143,
             "performerId": 1,
             "venueId": 343,
-            "startDateTime": "2025-03-30T09:00:00",
-            "endDateTime": "2025-03-30T19:00:00",
+            "startDateTime": "2025-03-30T09:00:00Z",
+            "endDateTime": "2025-03-30T19:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-27T10:30:00",
-            "modifiedOn": "2024-10-27T10:30:00",
+            "createdOn": "2024-10-27T10:30:00Z",
+            "modifiedOn": "2024-10-27T10:30:00Z",
             "offers": [
                 {
                     "offerId": 43,
@@ -4406,7 +4490,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 186,
@@ -4416,11 +4501,11 @@
             "organizerId": 144,
             "performerId": 1,
             "venueId": 344,
-            "startDateTime": "2025-04-05T09:00:00",
-            "endDateTime": "2025-04-05T21:00:00",
+            "startDateTime": "2025-04-05T09:00:00Z",
+            "endDateTime": "2025-04-05T21:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-28T12:00:00",
-            "modifiedOn": "2024-10-28T12:00:00",
+            "createdOn": "2024-10-28T12:00:00Z",
+            "modifiedOn": "2024-10-28T12:00:00Z",
             "offers": [
                 {
                     "offerId": 44,
@@ -4456,7 +4541,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 187,
@@ -4466,11 +4552,11 @@
             "organizerId": 145,
             "performerId": 1,
             "venueId": 345,
-            "startDateTime": "2025-04-15T18:00:00",
-            "endDateTime": "2025-04-15T23:00:00",
+            "startDateTime": "2025-04-15T18:00:00Z",
+            "endDateTime": "2025-04-15T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-29T14:00:00",
-            "modifiedOn": "2024-10-29T14:00:00",
+            "createdOn": "2024-10-29T14:00:00Z",
+            "modifiedOn": "2024-10-29T14:00:00Z",
             "offers": [
                 {
                     "offerId": 45,
@@ -4506,7 +4592,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 188,
@@ -4516,11 +4603,11 @@
             "organizerId": 146,
             "performerId": 1,
             "venueId": 346,
-            "startDateTime": "2025-04-20T19:00:00",
-            "endDateTime": "2025-04-20T22:00:00",
+            "startDateTime": "2025-04-20T19:00:00Z",
+            "endDateTime": "2025-04-20T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-10-30T13:00:00",
-            "modifiedOn": "2024-10-30T13:00:00",
+            "createdOn": "2024-10-30T13:00:00Z",
+            "modifiedOn": "2024-10-30T13:00:00Z",
             "offers": [
                 {
                     "offerId": 46,
@@ -4562,7 +4649,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 189,
@@ -4572,11 +4660,11 @@
             "organizerId": 147,
             "performerId": 1,
             "venueId": 347,
-            "startDateTime": "2025-05-05T06:00:00",
-            "endDateTime": "2025-05-07T18:00:00",
+            "startDateTime": "2025-05-05T06:00:00Z",
+            "endDateTime": "2025-05-07T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-01T15:00:00",
-            "modifiedOn": "2024-11-01T15:00:00",
+            "createdOn": "2024-11-01T15:00:00Z",
+            "modifiedOn": "2024-11-01T15:00:00Z",
             "offers": [
                 {
                     "offerId": 47,
@@ -4612,7 +4700,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 190,
@@ -4622,11 +4711,11 @@
             "organizerId": 148,
             "performerId": 1,
             "venueId": 348,
-            "startDateTime": "2025-05-10T12:00:00",
-            "endDateTime": "2025-05-10T22:00:00",
+            "startDateTime": "2025-05-10T12:00:00Z",
+            "endDateTime": "2025-05-10T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-02T11:00:00",
-            "modifiedOn": "2024-11-02T11:00:00",
+            "createdOn": "2024-11-02T11:00:00Z",
+            "modifiedOn": "2024-11-02T11:00:00Z",
             "offers": [
                 {
                     "offerId": 48,
@@ -4668,7 +4757,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 191,
@@ -4678,11 +4768,11 @@
             "organizerId": 149,
             "performerId": 1,
             "venueId": 349,
-            "startDateTime": "2025-05-15T11:00:00",
-            "endDateTime": "2025-05-15T22:00:00",
+            "startDateTime": "2025-05-15T11:00:00Z",
+            "endDateTime": "2025-05-15T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-03T14:00:00",
-            "modifiedOn": "2024-11-03T14:00:00",
+            "createdOn": "2024-11-03T14:00:00Z",
+            "modifiedOn": "2024-11-03T14:00:00Z",
             "offers": [
                 {
                     "offerId": 49,
@@ -4727,7 +4817,8 @@
             "performer": {
                 "name": "Various Artists",
                 "bio": "Top musicians from around the world, performing live for the fans."
-            }
+            },
+            "currency": "INR"
         },
         {
             "id": 192,
@@ -4737,11 +4828,11 @@
             "organizerId": 150,
             "performerId": 1,
             "venueId": 350,
-            "startDateTime": "2025-06-01T18:00:00",
-            "endDateTime": "2025-06-01T23:00:00",
+            "startDateTime": "2025-06-01T18:00:00Z",
+            "endDateTime": "2025-06-01T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-04T15:00:00",
-            "modifiedOn": "2024-11-04T15:00:00",
+            "createdOn": "2024-11-04T15:00:00Z",
+            "modifiedOn": "2024-11-04T15:00:00Z",
             "offers": [
                 {
                     "offerId": 50,
@@ -4783,7 +4874,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 193,
@@ -4793,11 +4885,11 @@
             "organizerId": 151,
             "performerId": 1,
             "venueId": 351,
-            "startDateTime": "2025-06-10T10:00:00",
-            "endDateTime": "2025-06-10T18:00:00",
+            "startDateTime": "2025-06-10T10:00:00Z",
+            "endDateTime": "2025-06-10T18:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-05T10:00:00",
-            "modifiedOn": "2024-11-05T10:00:00",
+            "createdOn": "2024-11-05T10:00:00Z",
+            "modifiedOn": "2024-11-05T10:00:00Z",
             "offers": [
                 {
                     "offerId": 51,
@@ -4833,7 +4925,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 194,
@@ -4843,11 +4936,11 @@
             "organizerId": 152,
             "performerId": 1,
             "venueId": 352,
-            "startDateTime": "2025-06-15T09:00:00",
-            "endDateTime": "2025-06-15T17:00:00",
+            "startDateTime": "2025-06-15T09:00:00Z",
+            "endDateTime": "2025-06-15T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-06T09:00:00",
-            "modifiedOn": "2024-11-06T09:00:00",
+            "createdOn": "2024-11-06T09:00:00Z",
+            "modifiedOn": "2024-11-06T09:00:00Z",
             "offers": [
                 {
                     "offerId": 52,
@@ -4883,7 +4976,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 195,
@@ -4893,11 +4987,11 @@
             "organizerId": 153,
             "performerId": 1,
             "venueId": 353,
-            "startDateTime": "2025-06-20T18:00:00",
-            "endDateTime": "2025-06-20T23:00:00",
+            "startDateTime": "2025-06-20T18:00:00Z",
+            "endDateTime": "2025-06-20T23:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-07T12:00:00",
-            "modifiedOn": "2024-11-07T12:00:00",
+            "createdOn": "2024-11-07T12:00:00Z",
+            "modifiedOn": "2024-11-07T12:00:00Z",
             "offers": [
                 {
                     "offerId": 53,
@@ -4939,7 +5033,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 196,
@@ -4949,11 +5044,11 @@
             "organizerId": 154,
             "performerId": 1,
             "venueId": 354,
-            "startDateTime": "2025-07-01T10:00:00",
-            "endDateTime": "2025-07-01T16:00:00",
+            "startDateTime": "2025-07-01T10:00:00Z",
+            "endDateTime": "2025-07-01T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-08T14:00:00",
-            "modifiedOn": "2024-11-08T14:00:00",
+            "createdOn": "2024-11-08T14:00:00Z",
+            "modifiedOn": "2024-11-08T14:00:00Z",
             "offers": [
                 {
                     "offerId": 54,
@@ -4989,7 +5084,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 197,
@@ -4999,11 +5095,11 @@
             "organizerId": 155,
             "performerId": 1,
             "venueId": 355,
-            "startDateTime": "2025-07-10T12:00:00",
-            "endDateTime": "2025-07-10T22:00:00",
+            "startDateTime": "2025-07-10T12:00:00Z",
+            "endDateTime": "2025-07-10T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-09T10:00:00",
-            "modifiedOn": "2024-11-09T10:00:00",
+            "createdOn": "2024-11-09T10:00:00Z",
+            "modifiedOn": "2024-11-09T10:00:00Z",
             "offers": [
                 {
                     "offerId": 55,
@@ -5039,7 +5135,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 198,
@@ -5049,11 +5146,11 @@
             "organizerId": 156,
             "performerId": 1,
             "venueId": 356,
-            "startDateTime": "2025-07-15T09:00:00",
-            "endDateTime": "2025-07-15T17:00:00",
+            "startDateTime": "2025-07-15T09:00:00Z",
+            "endDateTime": "2025-07-15T17:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-10T11:00:00",
-            "modifiedOn": "2024-11-10T11:00:00",
+            "createdOn": "2024-11-10T11:00:00Z",
+            "modifiedOn": "2024-11-10T11:00:00Z",
             "offers": [
                 {
                     "offerId": 56,
@@ -5089,7 +5186,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 199,
@@ -5099,11 +5197,11 @@
             "organizerId": 157,
             "performerId": 1,
             "venueId": 357,
-            "startDateTime": "2025-07-20T12:00:00",
-            "endDateTime": "2025-07-20T22:00:00",
+            "startDateTime": "2025-07-20T12:00:00Z",
+            "endDateTime": "2025-07-20T22:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-11T13:00:00",
-            "modifiedOn": "2024-11-11T13:00:00",
+            "createdOn": "2024-11-11T13:00:00Z",
+            "modifiedOn": "2024-11-11T13:00:00Z",
             "offers": [
                 {
                     "offerId": 57,
@@ -5139,7 +5237,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         },
         {
             "id": 200,
@@ -5149,11 +5248,11 @@
             "organizerId": 158,
             "performerId": 1,
             "venueId": 358,
-            "startDateTime": "2025-07-25T10:00:00",
-            "endDateTime": "2025-07-25T16:00:00",
+            "startDateTime": "2025-07-25T10:00:00Z",
+            "endDateTime": "2025-07-25T16:00:00Z",
             "status": "Published",
-            "createdOn": "2024-11-12T16:00:00",
-            "modifiedOn": "2024-11-12T16:00:00",
+            "createdOn": "2024-11-12T16:00:00Z",
+            "modifiedOn": "2024-11-12T16:00:00Z",
             "offers": [
                 {
                     "offerId": 58,
@@ -5189,7 +5288,8 @@
                 "stateId": 0,
                 "country": 0
             },
-            "performer": null
+            "performer": null,
+            "currency": "INR"
         }
     ],
     "errors": null

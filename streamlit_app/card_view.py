@@ -51,7 +51,7 @@ card_html = '''
     <div class="card" onclick="window.location.href='?event_id={id}'">
         <h3>{id}. {title}</h3>
         <p><b>Description:</b> {description}</p>
-        <p class="date"><b>Date:</b> {date}</p>
+        <p class="date">{date}<br>{day}</p>
     </div>
 '''
 
@@ -75,7 +75,8 @@ def convert_json_to_cards(json_data):
         cards += card_html.format(id = event['id'],
                                   title = event['title'],
                                   description = event['description'],
-                                  date = pd.to_datetime(event['startDateTime']).date(),)
+                                  date = pd.to_datetime(event['startDateTime']).date(),
+                                  day = pd.to_datetime(event['startDateTime']).day_name())
         
     return cards
 
