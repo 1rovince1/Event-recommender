@@ -2,7 +2,7 @@ import threading
 import time
 
 from engines import updation_engine as updater
-import similarity_weights as wconfig
+from utilities import similarity_weights as wconfig
 
 
 # creating a thread lock mechanism to protect files while they are being updated
@@ -229,7 +229,7 @@ def customize_content_similarity_matrix(
             f"# weight_time_of_event = 7.5"
         ])
 
-        with open('similarity_weights.py', 'w') as file:
+        with open('utilities/similarity_weights.py', 'w') as file:
             file.write(new_config)
 
         print('Updated the config file successfully!')

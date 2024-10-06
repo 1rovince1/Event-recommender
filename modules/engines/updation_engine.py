@@ -15,7 +15,7 @@ from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 from sentence_transformers import SentenceTransformer
 from currency_converter import CurrencyConverter
 
-import links
+from utilities import links
 
 
 # Download stopwords and other necessary corpora if you haven't done so (For first time use. Run the nltk_downloader.py file in the terminal to perform this action)
@@ -104,7 +104,7 @@ def update_event_df():
 
     # df = json_normalize(json_obj['data']).rename(columns={'base_price': 'price','organizer_id': 'organizerId', 'performer_id': 'performerId', 'start_date_time': 'startDateTime', 'end_date_time': 'endDateTime', 'venue.city_id': 'venue.cityId', 'venue.state_id': 'venue.stateId', 'venue.country_id': 'venue.country' })    
     df = json_normalize(json_obj['data']) # converting the complex json data format to a simpler tabular format
-    event_df = df[['id', 'title', 'description', 'price', 'status', 'organizerId', 'performerId', 'startDateTime', 'endDateTime', 'venue.cityId', 'venue.stateId', 'venue.country']].copy()
+    event_df = df[['id', 'title', 'description', 'price', 'currency', 'status', 'organizerId', 'performerId', 'startDateTime', 'endDateTime', 'venue.cityId', 'venue.stateId', 'venue.country']].copy()
     event_df = event_df.dropna() # removing any event that has these values as null (not possible, but kept to avoid unwanted errors)
     event_df = event_df[event_df['status'] == "Published"]
     # event_df = event_df[event_df['status'] == 1]
@@ -112,7 +112,7 @@ def update_event_df():
     # editing df
     # event_df['CombinedDescription'] = ((event_df['title'] + ' ') + event_df['description']).apply(lambda x: clean(x))    # CombinedDescription column holds the title and description words (preprocessed using clean function)
     # event_df['CombinedDescription'] = ((event_df['title'] + '. ') + event_df['description'])    # No need to clean text now, as we are using a embedding model
-    event_df['CombinedDescription'] = (event_df['description'])    # No need to clean text now, as we are using a embedding model
+    event_df['CombinedDescription'] = (event_df['description'])    # Not using title as of now beacause it biased towards titles having years like 2024, 2025 etc.
 
     # converting the datetime columns to datetime format
     event_df['startDateTime'] = pd.to_datetime(event_df['startDateTime'])

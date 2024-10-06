@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 
 from engines import updation_engine as updater
-from engines import utility_functions as utils
+from utilities import utility_functions as utils
 
 
 # fetching the sentence-transformer model
@@ -33,7 +33,7 @@ except FileNotFoundError:
 
 # configuring gemini model
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(dotenv_path = 'utilities/.env')
 
 api_key = os.environ['GOOGLE_API_KEY']
 
@@ -48,9 +48,9 @@ prompt_template = PromptTemplate.from_template(
     You will be given a json format list with the data of all the available events.
     You will also be given a search query.
     The query would be a human input, so treat it as required.
-    Your task is to give a list of event ids that match the search query, in order of best recommendation to worst recommendation.
-    Give upto 5 best matches. Not more than that, except for some special mentions.
-    Also give explanation for each separately after the list.
+    Your task is to give a json list of data of events that match the search query, in order of best recommendation to worst recommendation.
+    Use your JSON-only format.
+    Give upto 1 best matches.
 
     Query and data:
     Search query: {query}

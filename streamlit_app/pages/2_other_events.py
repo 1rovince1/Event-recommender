@@ -2,8 +2,7 @@ import requests
 import pandas as pd
 import streamlit as st
 
-import card_view
-import links
+from utilities import links, card_view
 
 # setting the stremlit app's layout to a wider view
 st.set_page_config(layout='wide')

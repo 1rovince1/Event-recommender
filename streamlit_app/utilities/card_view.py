@@ -35,7 +35,7 @@ card_html = '''
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             margin: 10px;
             width: 250px;
-            height: 300px;
+            height: 330px;
             cursor: pointer;
             transition: transform 0.1s, box-shadow 0.2s;
         }}
