@@ -2,7 +2,8 @@ import requests
 import pandas as pd
 import streamlit as st
 
-from utilities import links, card_view
+from utilities import links
+from utilities import card_view
 
 # setting the stremlit app's layout to a wider view
 st.set_page_config(layout='wide')
@@ -22,7 +23,7 @@ events_also_liked_by_ohter_users_endpoint = links.events_also_liked_by_ohter_use
 
 
 
-events_endpoint = links.server_url
+events_endpoint = links.events_data_url
 events_list = []
 description_dict = {}
 date_dict = {}

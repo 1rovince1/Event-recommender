@@ -1,7 +1,8 @@
 import requests
 import streamlit as st
 
-from utilities import links, card_view
+from utilities import links
+from utilities import card_view
 
 
 # setting the stremlit app's layout to a wider view

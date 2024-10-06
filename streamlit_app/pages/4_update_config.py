@@ -37,8 +37,8 @@ if st.button('Customize'):
         st.write(res['message'])
 
         new_config = '\n'.join([
-            f"# adjustable weights:",
-
+            "# adjustable weights:",
+            "\n",
             f"weight_title_description_of_event = {tit_des}",
             f"weight_price_of_event = {pr}",
             f"weight_duration_of_event = {dur}",
@@ -48,17 +48,17 @@ if st.button('Customize'):
             f"weight_date_of_event = {dat}",
             f"weight_time_of_event = {tim}",
 
-
-            f"# default weights:",
-
-            f"# weight_title_description_of_event = 35.0",
-            f"# weight_price_of_event = 5.0",
-            f"# weight_duration_of_event = 2.5",
-            f"# weight_venue_of_event = 15.0",
-            f"# weight_organizer_of_event = 2.5",
-            f"# weight_performer_of_event = 25.0",
-            f"# weight_date_of_event = 7.5",
-            f"# weight_time_of_event = 7.5"
+            "\n\n\n",
+            "# default weights:",
+            "\n",
+            "# weight_title_description_of_event = 35.0",
+            "# weight_price_of_event = 5.0",
+            "# weight_duration_of_event = 2.5",
+            "# weight_venue_of_event = 15.0",
+            "# weight_organizer_of_event = 2.5",
+            "# weight_performer_of_event = 25.0",
+            "# weight_date_of_event = 7.5",
+            "# weight_time_of_event = 7.5"
         ])
 
         with open('utilities/similarity_weights.py', 'w') as file:

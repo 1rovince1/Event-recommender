@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-from utilities import links, card_view
+from utilities import links
+from utilities import card_view
 
 
 st.set_page_config(layout='wide')

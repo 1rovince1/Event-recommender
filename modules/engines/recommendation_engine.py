@@ -39,6 +39,7 @@ def upcoming_events(event_id=None):
 
 
 
+
 # function to return events in order: (most number of people interacted with) to (least number of people interacted with)
 # because if 1 or 2 parties book the entire event or most number of seats, it should not be tagged as popular
 def popular_events(event_id=None):

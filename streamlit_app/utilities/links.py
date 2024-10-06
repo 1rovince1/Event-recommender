@@ -1,5 +1,5 @@
 # local
-server_url = 'http://127.0.0.1:5000/event_data'
+events_data_url = 'http://127.0.0.1:5000/event_data'
 
 # for popular_events
 app_url = 'http://127.0.0.1:8000'
