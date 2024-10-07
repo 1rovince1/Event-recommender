@@ -2,6 +2,7 @@ import threading
 import time
 
 from engines import updation_engine as updater
+from engines import search_engine as search
 from utilities import similarity_weights as wconfig
 
 
@@ -44,12 +45,20 @@ def update_events_list():
 
 
 
+
+
+
+
+
+
+
 # function to update the content similarity matrix
 def retrieve_event_data():
 
+    event_data_retrieval_and_processing_start_time = time.time()
+
     try:
 
-        event_data_retrieval_and_processing_start_time = time.time()
         updater.update_event_df()  # updating the events data
         event_data_retrieval_and_processing_end_time = time.time()
         print(f'Event data retrieved and processed successfully! ({(event_data_retrieval_and_processing_end_time - event_data_retrieval_and_processing_start_time):.6f} seconds)')
@@ -65,9 +74,10 @@ def retrieve_event_data():
 # function to update the content similarity matrix
 def retrieve_user_order_data():
 
+    user_order_data_retrieval_and_processing_start_time = time.time()
+
     try:
 
-        user_order_data_retrieval_and_processing_start_time = time.time()
         updater.update_user_order_df()  # updating the user-order history data
         user_order_data_retrieval_and_processing_end_time = time.time()
         print(f'User-order history data retrieved successfully! ({(user_order_data_retrieval_and_processing_end_time - user_order_data_retrieval_and_processing_start_time):.6f} seconds)')
@@ -83,9 +93,10 @@ def retrieve_user_order_data():
 # function to update the content similarity matrix
 def update_content_similarity_matrix():
 
+    content_based_updation_start_time = time.time()
+
     try:
 
-        content_based_updation_start_time = time.time()
         updater.update_content_recommendation_matrix(
             wconfig.weight_title_description_of_event,
             wconfig.weight_price_of_event,
@@ -110,9 +121,10 @@ def update_content_similarity_matrix():
 # function to update user-item matrix
 def update_user_item_matrix():
 
+    user_item_update_start_time = time.time()
+
     try:
 
-        user_item_update_start_time = time.time()
         updater.update_user_item_matrix()   # updating the user-item matrix
         user_item_update_end_time = time.time()
         print(f'User Item matrix updated successfully! ({(user_item_update_end_time - user_item_update_start_time):.6f} seconds)')
@@ -128,9 +140,10 @@ def update_user_item_matrix():
 # function to update events' info list
 def update_events_info_list():
 
+    events_list_update_start_time = time.time()
+
     try:
 
-        events_list_update_start_time = time.time()
         update_events_list()    # updating the recommendable events list from the json file
         events_list_update_end_time = time.time()
         print(f"Upcoming published events' info list updated successfully! ({(events_list_update_end_time - events_list_update_start_time):.6f} seconds)")
@@ -143,28 +156,62 @@ def update_events_info_list():
 
 
 
+# function to update semantic_search embeddings
+def update_semantic_search_db():
+
+    semantic_search_db_update_start_time = time.time()
+
+    try:
+
+        search.update_semantic_search_db()  # updating the embeddings in the sematntic_search db
+        semantic_search_db_update_end_time = time.time()
+        print(f'Semantic-search embeddings updated successfully! ({(semantic_search_db_update_end_time - semantic_search_db_update_start_time):.6f} seconds)')
+
+    except Exception as e:
+
+        semantic_search_db_update_end_time = time.time()
+        print(f'Failed to update semantic-search embeddings: {str[e]} ({(semantic_search_db_update_end_time - semantic_search_db_update_start_time):.6f} seconds)')
+
+
+
+
+# function to update memory of gemini with latest all-events' data
+def update_gemini_memory():
+
+    gemini_memory_update_start_time = time.time()
+
+    try:
+
+        search.update_gemini_memory()   # updating memory of llm to hold the latest events data
+        gemini_memory_update_end_time = time.time()
+        print(f'Memory of Gemini-LLM updated successfull! ({(gemini_memory_update_end_time - gemini_memory_update_start_time):.6f} seconds)')
+
+    except Exception as e:
+
+        gemini_memory_update_end_time = time.time()
+        print(f'Failed to update memory of Gemini-LLM: {str(e)} ({(gemini_memory_update_end_time - gemini_memory_update_start_time):.6f} seconds)')
+
+
+
+
 # handling periodic updates of the similarity matrix saved
 def periodic_update():
 
     # calculating the time elapsed in updation
     updation_start_time = time.time()
 
-    print('Updating recommendation matrices and files...')
+    print('Updating recommendations...')
 
     retrieve_event_data()
     retrieve_user_order_data()
     update_content_similarity_matrix()
     update_user_item_matrix()
     update_events_info_list()
+    update_semantic_search_db()
+    update_gemini_memory()
 
     updation_end_time = time.time()
     print(f'Total time elapsed in updation = {(updation_end_time - updation_start_time):.6f} seconds')
-
-
-
-
-
-
 
 
 

@@ -80,6 +80,8 @@ recommendable_events_info_list = None   # a list containing all the event data i
 
 
 
+# DATA COLLECTION AND HELPER FUNCTIONS
+
 # function to perform text pre-processing
 # def clean(document):
   
@@ -340,6 +342,8 @@ def time_similarity():
 
 
 
+
+# CRAETION OF MATRICES AND THEIR UPDATION
 
 # function to create a new similartiy matrix from the all-events api response
 # in future we can use the separate similarity matrices which comprise of the combined_content_similarity matrix to provide recommendations based on user-criteria

@@ -11,21 +11,32 @@ from engines import updation_engine as updater
 from utilities import utility_functions as utils
 
 
+
+
+
+
+
+
+
+
+
+# MODEL LOADING AND CONFIGURATION
+
 # fetching the sentence-transformer model
 model_dir = 'models/'
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
 
-# model_path = os.path.join(model_dir, 'paraphrase-MiniLM-L6-v2.pkl')
-model_path = os.path.join(model_dir, 'paraphrase-mpnet-base-v2.pkl')
+model_path = os.path.join(model_dir, 'paraphrase-MiniLM-L6-v2.pkl')
+# model_path = os.path.join(model_dir, 'paraphrase-mpnet-base-v2.pkl')
 
 try:
     with open(model_path, 'rb') as file:
         lang_model = pickle.load(file)
 
 except FileNotFoundError:
-    # lang_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
-    lang_model = SentenceTransformer('paraphrase-mpnet-base-v2')
+    lang_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+    # lang_model = SentenceTransformer('paraphrase-mpnet-base-v2')
 
     with open(model_path, 'wb') as file:
         pickle.dump(lang_model, file)
@@ -63,13 +74,47 @@ llm_chain = prompt_template | llm
 
 
 
+
+
+
+
+
+
+# DB MANAGEMENT
+
+embedded_descs = None
+
+# db management for semantic search
+def update_semantic_search_db():
+
+    global embedded_descs
+    embedded_descs = lang_model.encode(updater.retrieved_event_df['CombinedDescription'])
+
+
+
+# we need to store the event data in memory of llm too at once
+def update_gemini_memory():
+
+    pass
+
+
+
+
+
+
+
+
+
+
+# FUNCTIONALITIES
+
+
 # function to give results based on sentence embeddings on CombinedDescription (title + description)
 def semantic_search(query):
 
     response_dict = {}
 
     embedded_query = lang_model.encode(query)
-    embedded_descs = lang_model.encode(updater.retrieved_event_df['CombinedDescription'])
     search_similarity_matrix = cosine_similarity(embedded_query[np.newaxis, :], embedded_descs)
 
     sorted_indices = np.argsort(search_similarity_matrix[0])[::-1]

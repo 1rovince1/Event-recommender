@@ -6,7 +6,7 @@ events_data_url = 'http://127.0.0.1:5000/event_data'  # API from local server (i
 users_data_url = 'http://127.0.0.1:5000/user_data'  # API from local server (inside the api_request_test_folder), for order history data
 
 # BM server urls
-# server_url = 'https://dcec-157-119-213-251.ngrok-free.app'  # remote server url
+# server_url = 'https://1f4e-157-119-213-251.ngrok-free.app'  # remote server url
 # events_data_url = server_url + '/api/bm/events' # remote server endpoint to obtain the data of all events (currently does not allow data of events more than the pagesize)
 # users_data_url = server_url + '/api/bm/get-order-user'  # remote server url to obtain the data of order history
 
