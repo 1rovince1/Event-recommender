@@ -56,12 +56,12 @@ llm = GoogleGenerativeAI(
 
 prompt_template = PromptTemplate.from_template(
     """You are a recommendation system.
-    You will be given a json format list with the data of all the available events.
+    You will be given a json format list with the data of all the available events. Analyse the data carefully.
     You will also be given a search query.
     The query would be a human input, so treat it as required.
-    Your task is to give a json list of data of events that match the search query, in order of best recommendation to worst recommendation.
-    Use your JSON-only format.
-    Give upto 1 best matches.
+    Your task is to give a json list of ids of events that match the search query,  which is sorted in the order of best recommendation to worst recommendation.
+    Use your JSON-only format, do not return anything except the list.
+    Give upto 5 best matches.
 
     Query and data:
     Search query: {query}
@@ -69,6 +69,33 @@ prompt_template = PromptTemplate.from_template(
 )
 
 llm_chain = prompt_template | llm
+
+
+
+data_prompt_template = PromptTemplate.from_template(
+    """You are a recommendation system.
+    You will be given a json format list with the data of all the available events in the json format. Analyse the data carefully, and remember it.
+    Do not forget these events in any case.
+    
+    Events data: {event_data}
+    
+    Next you will be given user queries.
+    Wait for them and do not respond anything yet."""
+)
+
+query_prompt_template = PromptTemplate.from_template(
+    """Now you will be given a user query.
+    The query would be a human input, so treat it as required.
+    Analyse the query carefully, and from the availabale events, return a json list of ids of events that match the search query,  which is sorted in the order of best recommendation to worst recommendation.
+    If no event matchig the user query is available, return "null" as response
+    Return only the list in the format of a json-list, but the response should not have any other thing except the list.
+    Give upto 5 best matches.
+
+    User query: {query}"""
+)
+
+llm_data_chain = data_prompt_template | llm
+llm_query_chain = query_prompt_template | llm
 
 
 
@@ -95,7 +122,9 @@ def update_semantic_search_db():
 # we need to store the event data in memory of llm too at once
 def update_gemini_memory():
 
-    pass
+    llm_data_chain.invoke({
+        'event_data': updater.recommendable_events_info_list
+    })
 
 
 
@@ -138,3 +167,7 @@ def gemini_search(query):
         'query': query,
         'event_data': updater.recommendable_events_info_list
     })
+
+    # return llm_query_chain.invoke({
+    #     'query': query
+    # })

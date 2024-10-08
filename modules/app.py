@@ -1,7 +1,9 @@
 from typing import Optional, Dict, Any
+import json
 
 from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 from apscheduler.schedulers.background import BackgroundScheduler
 
 import update_scheduler as sch_update
@@ -12,6 +14,14 @@ from engines import search_engine as search
 # initialising app and scheduler
 app = FastAPI()
 scheduler = BackgroundScheduler()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins = ['http://localhost:8501'],
+    allow_credentials = True,
+    allow_methods = ['*'],
+    allow_header = ['*']
+)
 
 
 
@@ -292,24 +302,41 @@ async def gemini_search(
     try:
         # calling the search logic
         search_response = search.gemini_search(query)
+        print(type(search_response))
+        print(search_response)
 
-        try:
+        recommended_event_ids = json.loads(search_response)
+        print(type(recommended_event_ids))
+        print(recommended_event_ids)
+
+        # getting the events info in the required response format from the events_list
+        recommended_events = [sch_update.events_list[sch_update.indices[i]] for i in recommended_event_ids]
+        print(recommended_events)
+
+        response_content = {
+            'status': 'Success',
+            'gemini_response': recommended_events
+        }
+
+        # try:
             # if search_response["data"] is not None:
-            recommended_event_ids = search_response
+            # import json
+            # recommended_event_ids = json.loads(search_response)
+            # print(type(recommended_event_ids))
 
-            # getting the events info in the required response format from the events_list
-            recommended_events = [sch_update.events_list[sch_update.indices[i]] for i in recommended_event_ids]
+            # # getting the events info in the required response format from the events_list
+            # recommended_events = [sch_update.events_list[sch_update.indices[i]] for i in recommended_event_ids]
 
-            response_content = {
-                'status': 'Success',
-                'gemini_response': recommended_events
-            }
+            # response_content = {
+            #     'status': 'Success',
+            #     'gemini_response': recommended_events
+            # }
 
-        except:
-            response_content = {
-                'status': 'Success',
-                'gemini_response': search_response
-            }
+        # except:
+        #     response_content = {
+        #         'status': 'Success',
+        #         'gemini_response': search_response
+        #     }
 
 
         # else:

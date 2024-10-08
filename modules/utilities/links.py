@@ -11,4 +11,4 @@ users_data_url = 'http://127.0.0.1:5000/user_data'  # API from local server (ins
 # users_data_url = server_url + '/api/bm/get-order-user'  # remote server url to obtain the data of order history
 
 # EM server url
-# events_data_url = 'https://60fc-2401-4900-5d9f-2ba9-99c5-de43-8b4b-e5a.ngrok-free.app/api/em/event' # data from event module
+# events_data_url = 'https://a7b4-14-141-28-114.ngrok-free.app/api/em/event?Status=1' # data from event module

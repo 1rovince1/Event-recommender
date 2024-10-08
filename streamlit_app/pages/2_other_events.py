@@ -36,13 +36,14 @@ if response.status_code == 200:
     events = response_obj['data']
 
     for event in events:
-          event_id = event['id']
-          event_title = event['title']
-          event_description = event['description']
-          event_date = pd.to_datetime(event['startDateTime']).date()
-          events_list.append(f'{event_id}. {event_title}')
-          description_dict[event_id] = (event_description)
-          date_dict[event_id] = event_date
+        event_id = event['id']
+        event_title = event['title']
+        event_description = event['description']
+        event_date = pd.to_datetime(event['startDateTime']).date()
+        # event_date = pd.to_datetime(event['start_date_time']).date()
+        events_list.append(f'{event_id}. {event_title}')
+        description_dict[event_id] = (event_description)
+        date_dict[event_id] = event_date
 
 else:
     st.write('Error. Couldn\'t load.')

@@ -21,10 +21,10 @@ if user_query != "":
     if response.status_code == 200:
 
         received = response.json()
-        st.write(received['gemini_response'])
-        # events = received['gemini_response']
-        # cards = card_view.convert_json_to_cards(events)
-        # card_view.display_as_cards(cards)
+        # st.write(received['gemini_response'])
+        events = received['gemini_response']
+        cards = card_view.convert_json_to_cards(events)
+        card_view.display_as_cards(cards)
 
     else:
         st.write('Error couldn\'t load.')

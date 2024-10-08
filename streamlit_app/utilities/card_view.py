@@ -78,6 +78,13 @@ def convert_json_to_cards(json_data):
                                   date = pd.to_datetime(event['startDateTime']).date(),
                                   day = pd.to_datetime(event['startDateTime']).day_name())
         
+        # brief card format
+        # cards += card_html.format(id = event['id'],
+        #                           title = event['title'],
+        #                           description = event['description'],
+        #                           date = pd.to_datetime(event['start_date_time']).date(),
+        #                           day = pd.to_datetime(event['start_date_time']).day_name())
+        
     return cards
 
 

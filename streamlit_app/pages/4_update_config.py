@@ -4,6 +4,7 @@ import importlib
 
 from utilities import links
 from utilities import similarity_weights as wconfig
+# import utilities.similarity_weights as wconfig
 
 tit_des = st.text_input('Enter weight of title and description: ', value = wconfig.weight_title_description_of_event)
 pr = st.text_input('Enter weight of event price: ', value = wconfig.weight_price_of_event)
@@ -64,7 +65,8 @@ if st.button('Customize'):
         with open('utilities/similarity_weights.py', 'w') as file:
             file.write(new_config)
 
-        importlib.reload(wconfig)
+        # importlib.reload(utilities.similarity_weights)
+        # st.experimental_rerun()
 
     else:
         st.write('Error!')
