@@ -45,7 +45,8 @@ if not os.path.exists(model_dir):
     os.makedirs(model_dir)
 
 # model_path = os.path.join(model_dir, 'paraphrase-MiniLM-L6-v2.pkl')
-model_path = os.path.join(model_dir, 'paraphrase-mpnet-base-v2.pkl')
+# model_path = os.path.join(model_dir, 'paraphrase-mpnet-base-v2.pkl')
+model_path = os.path.join(model_dir, 'all-mpnet-base-v2.pkl')
 
 try:
     with open(model_path, 'rb') as file:
@@ -53,7 +54,8 @@ try:
 
 except FileNotFoundError:
     # lang_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
-    lang_model = SentenceTransformer('paraphrase-mpnet-base-v2')
+    # lang_model = SentenceTransformer('paraphrase-mpnet-base-v2')
+    lang_model = SentenceTransformer('all-mpnet-base-v2')
 
     with open(model_path, 'wb') as file:
         pickle.dump(lang_model, file)
@@ -113,8 +115,8 @@ def update_event_df():
 
     # editing df
     # event_df['CombinedDescription'] = ((event_df['title'] + ' ') + event_df['description']).apply(lambda x: clean(x))    # CombinedDescription column holds the title and description words (preprocessed using clean function)
-    # event_df['CombinedDescription'] = ((event_df['title'] + '. ') + event_df['description'])    # No need to clean text now, as we are using a embedding model
-    event_df['CombinedDescription'] = (event_df['description'])    # Not using title as of now beacause it biased towards titles having years like 2024, 2025 etc.
+    event_df['CombinedDescription'] = ((event_df['title'] + '. ') + event_df['description'])    # No need to clean text now, as we are using a embedding model
+    # event_df['CombinedDescription'] = (event_df['description'])    # Not using title as of now beacause it biased towards titles having years like 2024, 2025 etc.
 
     # converting the datetime columns to datetime format
     event_df['startDateTime'] = pd.to_datetime(event_df['startDateTime'])

@@ -27,16 +27,18 @@ model_dir = 'models/'
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
 
-model_path = os.path.join(model_dir, 'paraphrase-MiniLM-L6-v2.pkl')
+# model_path = os.path.join(model_dir, 'paraphrase-MiniLM-L6-v2.pkl')
 # model_path = os.path.join(model_dir, 'paraphrase-mpnet-base-v2.pkl')
+model_path = os.path.join(model_dir, 'all-mpnet-base-v2.pkl')
 
 try:
     with open(model_path, 'rb') as file:
         lang_model = pickle.load(file)
 
 except FileNotFoundError:
-    lang_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+    # lang_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
     # lang_model = SentenceTransformer('paraphrase-mpnet-base-v2')
+    lang_model = SentenceTransformer('all-mpnet-base-v2')
 
     with open(model_path, 'wb') as file:
         pickle.dump(lang_model, file)
@@ -122,9 +124,10 @@ def update_semantic_search_db():
 # we need to store the event data in memory of llm too at once
 def update_gemini_memory():
 
-    llm_data_chain.invoke({
-        'event_data': updater.recommendable_events_info_list
-    })
+    # llm_data_chain.invoke({
+    #     'event_data': updater.recommendable_events_info_list
+    # })
+    pass
 
 
 

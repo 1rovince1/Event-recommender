@@ -25,7 +25,7 @@ gemini_search_endpoint = 'http://127.0.0.1:8000/api/bm/recommendations/gemini_se
 
 
 # BM
-# events_data_url = 'https://1f4e-157-119-213-251.ngrok-free.app/api/bm/events'  # remote server url
+# events_data_url = 'https://aa98-157-119-213-251.ngrok-free.app/api/bm/events'  # remote server url
 
 # EM
 # events_data_url = 'https://a7b4-14-141-28-114.ngrok-free.app/api/em/event?Status=1'
